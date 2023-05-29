@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+		<page id="95000" title="Clusters" descr="Names\Descriptions" voice="yes">		
+			<t id="01">{20005,7046} {20401,2} (Oort Cloud Beta)</t>
+			<t id="011">Out even further into the Oort Cloud the Terran Protectorate reactivated their dormant trans-orbital accelerator following sporadic reports of Yaki and, more troubling, Xenon activity.</t>
+			
+			<t id="02">{20005,8001} {20005,8003}{20404,1001}{20404,1} (Matrix #01)</t>
+			<t id="021">Once home to an extremely distant Terran military base and weapons manufacturing facilities, this area was overran with Xenon following the decommissioning of the trans-orbital accelerator via a now defunct jump beacon. The eradication of this large Xenon threat within Sol itself has become the highest priorty for the Terran Protectorate.</t>
+			
+			<t id="03">{20005,7012} {20401,2} (Mars Beta)</t>
+			<t id="031">Keeping in line with The Protectorate's new policy of Sol expansion, Mars Beta was selected due to the presence of large hydrogen and methane clouds and ore asteroids following the slow degradation of Phobos. While previously overshadowed by the richess of the Asteroid Belt, The Protectorate has opted to find safe alternatives as it is also the point of entry into the Sol system and loosing control would cut off vital resources.</t>
+			
+			<t id="04">{20005,7017} {20401,2} (Mercury Beta)</t>
+			<t id="041">Another region of space expanded into via new trans-orbital accelerators, Mercury Beta is far closer to the small planet and following a very controversial decision is now rich in silicon due to "extraction" of planetary resources via explosive means.</t>
+			
+			<t id="05">{20005,7005}(Althes)</t>
+			<t id="051">Feared to have been lost, Althes was once a far flung Terran colony. Prior to the Great Shutdown, Althes had been reconnected to Neptune and through it, so to had Megnir, Segaris, and even Aldrin. Post-Shutdown Althes remaining connected to Megnir and would be fiercely be defended against the Xenon threat isolated with them. Now that it has reemerged the inhabitants were evacuated once the Xenon synchronized with the K-branch and evolved far beyond their previous capacities.</t>
+			
+			<t id="06">{20005,7006}(Megnir)</t>
+			<t id="061">Another colony thought to have been lost, the reconnection of Megnir and then Segaris and Aldrin were momentous occasions cut short following the Great Shutdown. Following the reactivation of the gates once again, Megnir faired the great dark far better than expected due to the construciton of the Terran Shipyard which has since been decommissioned following incorporation into the Segaris Pioneers.</t>
+			
+			<t id="07">{20005,8001} {20005,8003}{20404,4}{20404,8} (Matrix #48)</t>
+			<t id="071">While once connected to a major Xenon sector only identified as "Core 023", this sector was a terror for the Terrans in the lost colonies. Following the initial signs of the Great Shutdown the Xenon migrated extensive assets into Matrix #48. While isolated the local Xenon engaged in a bitter conflict with the equally isolated Terrans. Once able to resynchronize with the K-branch, Matrix #48 evolved far beyond its previous limitations.</t>
+			
+			<t id="08">{20005,8001} {20005,8003}{20404,7}{20404,9}{20403,1} (Matrix #79A)</t>
+			<t id="081">text</t>
+			
+			<t id="09">{20005,1041} {20402,1} (Power Circle I)</t>
+			<t id="091">text</t>
+			
+			<t id="10">{20005,1041} {20402,3} (Power Circle III)</t>
+			<t id="101">text</t>
+			
+			<t id="11">{20005,6012} (Teladi Gain)</t>
+			<t id="111">text</t>
+			
+			<t id="12">{20005,1032} (Herron's Nebula)</t>
+			<t id="121">text</t>
+			
+			<t id="13">{20005,1037} (Montalaar)</t>
+			<t id="131">text</t>
+			
+			<t id="14">{20005,5029} (Split Fire)</t>
+			<t id="141">text</t>
+			
+			<t id="15">{20005,2004} (Dark Waters)</t>
+			<t id="151">text</t>
+			
+			<t id="16">{20005,2015} (Mists of Elysium)</t>
+			<t id="161">text</t>
+			
+			<t id="17">{20005,2005} (Depths of Silence)</t>
+			<t id="171">text</t>
+			
+			<t id="18">{20005,2010} (Light Waters)</t>
+			<t id="181">text</t>
+			
+			<t id="19">{20005,2025} (Shining Currents)</t>
+			<t id="191">text</t>	
+			
+			<t id="20">{20005,2026} (Shore of Infinity)</t>
+			<t id="201">text</t>
+			
+			<t id="21">{20005,2020} (Reservoir of Tranquillity)</t>
+			<t id="211">text</t>
+			
+			<t id="22">{20005,3026} (Duke's Domain)</t>
+			<t id="221">text</t>
+			
+			<t id="23">{20005,3038} {20402,1} (Perpetual Sin I)</t>
+			<t id="231">text</t>
+			
+			<t id="24">{20005,3018} (Sanctum Verge)</t>
+			<t id="241">text</t>
+			
+			<t id="25">{20005,3038} {20402,3} (Perpetual Sin III)</t>
+			<t id="251">text</t>
+			
+			<t id="26">{20005,3041} (Pontifex' Seclusion)</t>
+			<t id="261">text</t>
+			
+			<t id="27">{20005,3045} (Unholy Descent)</t>
+			<t id="271">text</t>
+			
+			<t id="28">{20005,9034} (Cathedral of Xaar)</t>
+			<t id="281">text</t>	
+			
+			<t id="29">{20005,3023} (Clarity's End)</t>
+			<t id="291">text</t>	
+			
+			<t id="30">{20005,9023} (Desecrated Skies)</t>
+			<t id="301">text</t>
+			
+			<t id="31">{20005,3037} (Perdition's End)</t>
+			<t id="311">text</t>
+			
+			<t id="32">{20005,3042} {20402,1} (Preacher's Refuge I)</t>
+			<t id="321">text</t>
+			
+			<t id="33">{20005,3042} {20402,4} (Preacher's Refuge IV)</t>	
+			<t id="331">text</t>
+			
+			<t id="34">{20005,3020} {20402,1} (Xaar's Belt I)</t>
+			<t id="341">text</t>
+			
+			<t id="35">{20005,3020} {20402,2} (Xaar's Belt II)</t>
+			<t id="351">text</t>
+			
+			<t id="36">{20005,3020} {20402,3} (Xaar's Belt III)</t>	
+			<t id="361">text</t>
+			
+			<t id="37">{20005,9003} (The Shallows)</t>
+			<t id="371">text</t>	
+			
+			<t id="38">{20005,5052} {20402,1} (Family Dhiok I)</t>
+			<t id="381">text</t>
+			
+			<t id="39">{20005,5052} {20402,2} (Family Dhiok III)</t>
+			<t id="391">text</t>
+			
+			<t id="40">{20005,5005} (Thyn's Abyss)</t>
+			<t id="401">text</t>
+			
+			<t id="41">{20005,5034} (Thyn's Excavation)</t>
+			<t id="411">text</t>
+			
+			<t id="42">{20005,2008} {20402,4} (Hila's Joy IV)</t>	
+			<t id="421">text</t>	
+			
+			<t id="43">{20005,2008} {20402,9} (Hila's Joy IX)</t>
+			<t id="431">text</t>
+			
+			<t id="44">{20005,2007}(Great Trench)</t>	
+			<t id="441">text</t>
+			
+			<t id="45">{20005,2011} (Lucky Planets)</t>	
+			<t id="451">text</t>
+			
+			<t id="46">{20005,2019} (Queen's Space)</t>
+			<t id="461">text</t>
+			
+			<t id="47">{20005,8001} {20005,8003}{20404,4}{20404,7}{20404,2}{20403,4} (Matrix #472D)</t>
+			<t id="471">text</t>
+			
+			<t id="48">{20005,9038} {20402,1} (Ocracoke's Storm I)</t>
+			<t id="481">text</t>
+			
+			<t id="49">{20005,9038} {20402,2} (Ocracoke's Storm II)</t>
+			<t id="491">text</t>	
+			
+			<t id="50">{20005,6025} {20402,6} (Shadows of Giants VI)</t>
+			<t id="501">text</t>
+			
+			<t id="51">{20005,6025} {20402,7} (Shadows of Giants VII)</t>
+			<t id="511">text</t>
+			
+			<t id="52">{20005,9020} (Bala Gi's Joy)</t>
+			<t id="521">text</t>
+			
+			<t id="53">{20005,6030} (Blue Profit)</t>
+			<t id="531">text</t>
+			
+			<t id="54">{20005,6050} (PTNI Headquarters)</t>
+			<t id="541">text</t>
+			
+			<t id="55">{20005,6048} (The Vault)</t>
+			<t id="551">text</t>
+			
+			<t id="56">{20005,6017} (Recovered Capital)</t>
+			<t id="561">text</t>
+			
+			<t id="57">{20005,9002} {20402,2} (Wretched Skies II)</t>
+			<t id="571">text</t>
+			
+			<t id="58">{20005,9002} {20402,7} (Wretched Skies VII)</t>
+			<t id="581">text</t>
+			
+			<t id="59">{20005,3027} {20402,1} (Duke's Vision I)</t>
+			<t id="591">text</t>
+			
+			<t id="60">{20005,3027} {20402,2} (Duke's Vision II)</t>
+			<t id="601">text</t>	
+			
+			<t id="61">{20005,9027} (LooMankStrat's Legacy)</t>
+			<t id="611">text</t>
+			
+			<t id="62">{20005,9022} (Danna's Chance)</t>
+			<t id="621">text</t>
+			
+			<t id="63">{20005,1034} {20401,1} (Legend's Home Alpha)</t>
+			<t id="631">text</t>
+			
+			<t id="64">{20005,1034} {20401,2} (Legend's Home Beta)</t>
+			<t id="641">text</t>
+			
+			<t id="65">{20005,1024} (Akeela's Beacon)</t>
+			<t id="651">text</t>
+			
+			<t id="66">{20005,1025} (Aladna Hill)</t>
+			<t id="661">text</t>
+			
+			<t id="67">{20005,1035} (Light of Heart)</t>
+			<t id="671">text</t>
+			
+			<t id="68">{20005,9029} (Moo-Kye's Revenge)</t>
+			<t id="681">text</t>
+			
+			<t id="69">{20005,6042} (Mines of Fortune)</t>
+			<t id="691">text</t>
+			
+			<t id="70">{20005,5037} (Zyarth's Stand)</t>
+			<t id="701">text</t>
+			
+			<t id="71">{20005,5058} (Zyarth's Fall)</t>
+			<t id="711">text</t>
+			
+			<t id="72">{20005,1030} (Elena's Fortune)</t>
+			<t id="721">text</t>
+			
+			<t id="73">{20005,1039} (Nyana's Hideout)</t>	
+			<t id="731">text</t>
+			
+			<t id="74">{20005,1033} (Interworlds)</t>
+			<t id="741">text</t>
+			
+			<t id="75">{20005,1048} (Wastelands)</t>
+			<t id="751">text</t>
+			
+			<t id="76">{20005,5021} (Ghinn's Escape)</t>
+			<t id="761">text</t>		
+			
+			<t id="77">{20202,901} {20001,201} {20401,1} (Kha'ak Sector Alpha)</t>
+			<t id="771">The presence of wreckage and debris clearly indicate this sector was once connected but there are no known records.</t>	
+			
+			<t id="78">{20202,901} {20001,201} {20401,2} (Kha'ak Sector Beta)</t>
+			<t id="781">This sector connected to Sancuary of Darkness following the success of the Wayfinder expedition. It appears to be a source of a major Kha'ak infestation.</t>
+			
+			<t id="79">{20202,901} {20001,201} {20401,3} (Kha'ak Sector Gamma)</t>
+			<t id="791">A poorly barely scouted sector with sporadic reports of Kha'ak pressence. </t>	
+			
+			<t id="80">{20202,901} {20001,201}(Kha'ak Sector)</t>
+			<t id="801">This region of space is disconnected from the gate network and shows sign of extreme Kha'ak infestation.</t>
+			
+			<t id="81">{20006,301} (Unknown Sector)</t>	
+			<t id="811">Error: Location not found within known network.</t>	
+			
+			<t id="82">{20202,901} {20005,4002} (Kha'ak Hive)</t>	
+			<t id="821">Operation Final Fury Failed.</t>				
+		</page>
+</language>	

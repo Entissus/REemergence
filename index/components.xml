@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index">
+	
+		<entry name="Cluster_REM00" value="extensions\reemergence\assets\environments\cluster\Cluster_REM00"/>
+		
+	</add>
+</diff>

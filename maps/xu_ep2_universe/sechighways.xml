@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>	
+<!--Hatikvah's Choice SH-001 Mirrored-->
+	<replace sel="/macros/macro[@name='SuperHighway001_Cluster_29_macro']">
+		<macro name="SuperHighway001_Cluster_29_macro" class="highway">
+			<component ref="standardsechighway" />
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="39988500" y="0" z="-13475048" />
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="-39988500" y="0" z="13475047" />
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="39988500"  y="0" z="-13475048"  tx="-0.947643458843231" ty="0" tz="0.319330275058746" weight="0" inlength="0"       outlength="7032970" />
+						<splineposition x="19994250"  y="0" z="-6737524.5" tx="-0.947603225708008" ty="0" tz="0.319449752569199" weight="1" inlength="7032970" outlength="7032970" />
+						<splineposition x="0"         y="0" z="0"          tx="-0.947643458843231" ty="0" tz="0.319330334663391" weight="1" inlength="7032970" outlength="7032970" />
+						<splineposition x="-19994250" y="0" z="6737523.5"  tx="-0.947603225708008" ty="0" tz="0.319449752569199" weight="1" inlength="7032970" outlength="7032970" />
+						<splineposition x="-39988500" y="0" z="13475047"   tx="-0.947643458843231" ty="0" tz="0.319330394268036" weight="0" inlength="7032970" outlength="0" />
+						<size r="1000" />
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time />
+					</linear>
+					<angular>
+						<roll />
+					</angular>
+				</controls>
+			</properties>
+		</macro>
+	</replace>
+	
+<!--Hatikvah's Choice SH-002 Mirrored-->
+	<replace sel="/macros/macro[@name='SuperHighway002_Cluster_29_macro']">
+		<macro name="SuperHighway002_Cluster_29_macro" class="highway">
+			<component ref="standardsechighway" />
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="-39988500" y="0" z="13475046" />
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="39988500" y="0" z="-13475047" />
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="-39988500" y="0" z="13475046"   tx="0.947643458843231" ty="0" tz="-0.319330275058746" weight="0" inlength="0"       outlength="7032970" />
+						<splineposition x="-19994250" y="0" z="6737522.5"  tx="0.947603225708008" ty="0" tz="-0.319449752569199" weight="1" inlength="7032970" outlength="7032970" />
+						<splineposition x="0"         y="0" z="-0.9765625" tx="0.947643458843231" ty="0" tz="-0.319330275058746" weight="1" inlength="7032970" outlength="7032970" />
+						<splineposition x="19994250"  y="0" z="-6737523.5" tx="0.947603225708008" ty="0" tz="-0.319449752569199" weight="1" inlength="7032970" outlength="7032970" />
+						<splineposition x="39988500"  y="0" z="-13475047"  tx="0.947643458843231" ty="0" tz="-0.319330394268036" weight="0" inlength="7032970" outlength="0" />
+						<size r="1000" />
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time />
+					</linear>
+					<angular>
+						<roll />
+					</angular>
+				</controls>
+			</properties>
+		</macro>
+	</replace>
+		
+<!-- Tharka's Cascade SH-001 - Mirrored-->
+	<replace sel="/macros/macro[@name='SuperHighway001_Cluster_32_macro']">
+		<macro name="SuperHighway001_Cluster_32_macro" class="highway">
+			<component ref="standardsechighway" />
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="-90313.3515625" y="0" z="16374727" />
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="90313.3515625" y="0" z="-16374727" />
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="-90313.3515625"  y="0" z="16374727"   tx="0.00551532674580812" ty="0" tz="-0.999984800815582" weight="0" inlength="0"       outlength="2729160" />
+						<splineposition x="-45156.67578125" y="0" z="8187363.5"  tx="0.00551596842706203" ty="0" tz="-0.999984800815582" weight="1" inlength="2729160" outlength="2729160" />
+						<splineposition x="0"               y="0" z="0"          tx="0.00551532721146941" ty="0" tz="-0.999984800815582" weight="1" inlength="2729160" outlength="2729160" />
+						<splineposition x="45156.67578125"  y="0" z="-8187363.5" tx="0.00551596842706203" ty="0" tz="-0.999984800815582" weight="1" inlength="2729160" outlength="2729160" />
+						<splineposition x="90313.3515625"   y="0" z="-16374727"  tx="0.00551532674580812" ty="0" tz="-0.999984800815582" weight="0" inlength="2729160" outlength="0" />
+						<size r="1000" />
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time />
+					</linear>
+					<angular>
+						<roll />
+					</angular>
+				</controls>
+			</properties>
+		</macro>
+	</replace>
+	
+<!-- Tharka's Cascade SH-002 - Mirrored-->
+	<replace sel="/macros/macro[@name='SuperHighway002_Cluster_32_macro']">
+		<macro name="SuperHighway002_Cluster_32_macro" class="highway">
+			<component ref="standardsechighway" />
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="90250.4453125" y="0" z="-16374727" />
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="-90250.4453125" y="0" z="16374727" />
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="90250.4453125"   y="0" z="-16374727"  tx="-0.00551148550584912" ty="0" tz="0.999984800815582" weight="0" inlength="0"       outlength="2729160" />
+						<splineposition x="45125.22265625"  y="0" z="-8187363.5" tx="-0.00551215372979641" ty="0" tz="0.999984800815582" weight="1" inlength="2729160" outlength="2729160" />
+						<splineposition x="0"               y="0" z="0"          tx="-0.00551148550584912" ty="0" tz="0.999984800815582" weight="1" inlength="2729160" outlength="2729160" />
+						<splineposition x="-45125.22265625" y="0" z="8187363.5"  tx="-0.00551215372979641" ty="0" tz="0.999984800815582" weight="1" inlength="2729160" outlength="2729160" />
+						<splineposition x="-90250.4453125"  y="0" z="16374727"   tx="-0.00551148550584912" ty="0" tz="0.999984800815582" weight="0" inlength="2729160" outlength="0" />
+						<size r="1000" />
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time />
+					</linear>
+					<angular>
+						<roll />
+					</angular>
+				</controls>
+			</properties>
+		</macro>
+	</replace>
+
+<!-- Turquoise Sea SH-001 - Mirrored-->
+	<replace sel="/macros/macro[@name='SuperHighway001_Cluster_50_macro']">
+  <macro name="SuperHighway001_Cluster_50_macro" class="highway">
+    <component ref="standardsechighway" />
+    <connections>
+      <connection ref="entrypoint">
+        <offset>
+          <position x="13236329" y="0" z="27504982" />
+        </offset>
+      </connection>
+      <connection ref="exitpoint">
+        <offset>
+          <position x="13236329" y="0" z="-27504982" />
+        </offset>
+      </connection>
+    </connections>
+    <properties>
+      <boundaries>
+        <boundary class="splinetube">         	
+
+          <splineposition x="13236329" 	y="0" z="27504982" 		tx="-0.299653935432434" ty="0" tz="-0.9263053085654974" weight="0" inlength="0" 		outlength="5087360" />
+          <splineposition x="6618165" 	y="0" z="13752490" 		tx="-0.299654173851013" ty="0" tz="-0.9262970551848412" weight="1" inlength="5087360" outlength="5087360" />
+          <splineposition x="0" 		y="0" z="0" 			tx="-0.299653935432434" ty="0" tz="-0.9263053141534328" weight="1" inlength="5087360" outlength="5087360" />
+          <splineposition x="-6618164" 	y="0" z="-13752491" 	tx="-0.299654173851013" ty="0" tz="-0.9262970551848412" weight="1" inlength="5087360" outlength="5087360" />
+          <splineposition x="-13236328" y="0" z="-27504982" 	tx="-0.299653935432434" ty="0" tz="-0.9263053085654974" weight="0" inlength="5087360" outlength="0" />	
+		  
+		  <size r="1000" />
+        </boundary>
+      </boundaries>
+      <controls>
+        <linear>
+          <time />
+        </linear>
+        <angular>
+          <roll />
+        </angular>
+      </controls>
+    </properties>
+  </macro>
+	</replace>
+	
+<!-- Turquoise Sea SH-002 - Mirrored-->
+	<replace sel="/macros/macro[@name='SuperHighway002_Cluster_50_macro']">
+  <macro name="SuperHighway002_Cluster_50_macro" class="highway">
+    <component ref="standardsechighway" />
+    <connections>
+      <connection ref="entrypoint">
+        <offset>
+          <position x="13236329" y="0" z="-27504982" />
+        </offset>
+      </connection>
+      <connection ref="exitpoint">
+        <offset>
+          <position x="13236328" y="0" z="27504982" />
+        </offset>
+      </connection>
+    </connections>
+    <properties>
+      <boundaries>
+        <boundary class="splinetube">
+
+          <splineposition x="-13236329" 	y="0" z="-27504982" 	tx="0.299653935432434" ty="0" tz="0.9263053718954325" weight="0" inlength="0" 		outlength="5087360" />
+          <splineposition x="-6618164.5" 	y="0" z="-13752491" 	tx="0.299654173851013" ty="0" tz="0.9262970551848412" weight="1" inlength="5087360" outlength="5087360" />
+          <splineposition x="0" 			y="0" z="0" 			tx="0.299653935432434" ty="0" tz="0.9263053830713034" weight="1" inlength="5087360" outlength="5087360" />
+          <splineposition x="6618165" 		y="0" z="13752490" 		tx="0.299654173851013" ty="0" tz="0.9262970551848412" weight="1" inlength="5087360" outlength="5087360" />
+          <splineposition x="13236329" 		y="0" z="27504982" 		tx="0.299653935432434" ty="0" tz="0.9263053718954325" weight="0" inlength="5087360" outlength="0" />		  
+		  		  
+          <size r="1000" />
+        </boundary>
+      </boundaries>
+      <controls>
+        <linear>
+          <time />
+        </linear>
+        <angular>
+          <roll />
+        </angular>
+      </controls>
+    </properties>
+  </macro>
+	</replace>	
+</diff>
