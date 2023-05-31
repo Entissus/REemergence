@@ -2,6 +2,7 @@
 <diff>
 	<add sel="/index">
 	
+		<entry name="Cluster_106B" value="extensions\reemergence\assets\environments\cluster\Cluster_106B"/>	
 		<entry name="Cluster_REM00" value="extensions\reemergence\assets\environments\cluster\Cluster_REM00"/>
 		
 	</add>

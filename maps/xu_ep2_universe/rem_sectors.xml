@@ -1352,8 +1352,8 @@
 					</offset>	
 					<macro ref="Zone005_Cluster_REM32_Sector001_macro" connection="sector"/>	
 				</connection>
-				<connection name="tzoneCluster_REM32_Sector001SHCon6_GateZone_connection" ref="zones">	<offset>	<position x="134166.84375" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_REM32_Sector001SHCon6_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_REM32_Sector001SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="143991.96875" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_REM32_Sector001SHCon10_GateZone_macro" connection="sector" />	</connection>				
+				<connection name="tzoneCluster_REM32_Sector001SHCon6_GateZone_connection"  ref="zones">	<offset>	<position x="-55535.78125" y="0" z="-200000"  />	</offset>	<macro ref="tzoneCluster_REM32_Sector001SHCon6_GateZone_macro"  connection="sector" />	</connection>
+				<connection name="tzoneCluster_REM32_Sector001SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="-45588.63671875" y="0" z="-200000"  />	</offset>	<macro ref="tzoneCluster_REM32_Sector001SHCon10_GateZone_macro" connection="sector" />	</connection>					
 			</connections>
 		</macro>
 		
@@ -1391,8 +1391,8 @@
 					</offset>	
 					<macro ref="Zone005_Cluster_REM32_Sector002_macro" connection="sector"/>	
 				</connection>
-				<connection name="tzoneCluster_REM32_Sector002SHCon5_GateZone_connection"  ref="zones">	<offset>	<position x="-55535.78125"    y="0" z="200000"  />	</offset>	<macro ref="tzoneCluster_REM32_Sector002SHCon5_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_REM32_Sector002SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="-45588.63671875" y="0" z="200000"  />	</offset>	<macro ref="tzoneCluster_REM32_Sector002SHCon9_GateZone_macro" connection="sector" />	</connection>			
+				<connection name="tzoneCluster_REM32_Sector002SHCon5_GateZone_connection" ref="zones">	<offset>	<position x="134166.84375" y="0" z="200000" />	</offset>	<macro ref="tzoneCluster_REM32_Sector002SHCon5_GateZone_macro" connection="sector" />	</connection>
+				<connection name="tzoneCluster_REM32_Sector002SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="143991.96875" y="0" z="200000" />	</offset>	<macro ref="tzoneCluster_REM32_Sector002SHCon9_GateZone_macro" connection="sector" />	</connection>			
 			</connections>
 		</macro>	
 		
@@ -1504,8 +1504,8 @@
 					</offset>	
 					<macro ref="Zone005_Cluster_REM35_Sector001_macro" connection="sector"/>	
 				</connection>
-				<connection name="tzoneCluster_REM35_Sector001SHCon6_GateZone_connection"  ref="zones">	<offset>	<position x="200000" y="0" z="-39934.34765625" />	</offset>	<macro ref="tzoneCluster_REM35_Sector001SHCon6_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_REM35_Sector001SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="200000" y="0" z="-50000" />	</offset>	<macro ref="tzoneCluster_REM35_Sector001SHCon10_GateZone_macro" connection="sector" />	</connection>
+				<connection name="tzoneCluster_REM35_Sector001SHCon6_GateZone_connection"  ref="zones">	<offset>	<position x="-55535.78125"    y="0" z="200000" />	</offset>	<macro ref="tzoneCluster_REM35_Sector001SHCon6_GateZone_macro"  connection="sector" />	</connection>
+				<connection name="tzoneCluster_REM35_Sector001SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="-45588.63671875" y="0" z="200000" />	</offset>	<macro ref="tzoneCluster_REM35_Sector001SHCon10_GateZone_macro" connection="sector" />	</connection>
 			</connections>
 		</macro>
 		
@@ -1543,8 +1543,8 @@
 					</offset>	
 					<macro ref="Zone005_Cluster_REM35_Sector002_macro" connection="sector"/>	
 				</connection>
-				<connection name="tzoneCluster_REM35_Sector002SHCon5_GateZone_connection" ref="zones">	<offset>	<position x="-200000" y="0" z="50000" />	</offset>	<macro ref="tzoneCluster_REM35_Sector002SHCon5_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_REM35_Sector002SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="-200000" y="0" z="39768.40234375" />	</offset>	<macro ref="tzoneCluster_REM35_Sector002SHCon9_GateZone_macro" connection="sector" />	</connection>					
+				<connection name="tzoneCluster_REM35_Sector002SHCon5_GateZone_connection" ref="zones">	<offset>	<position x="134166.84375" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_REM35_Sector002SHCon5_GateZone_macro" connection="sector" />	</connection>
+				<connection name="tzoneCluster_REM35_Sector002SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="143991.96875" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_REM35_Sector002SHCon9_GateZone_macro" connection="sector" />	</connection>					
 			</connections>
 		</macro>	
 		
@@ -1730,8 +1730,8 @@
 					</offset>	
 					<macro ref="Zone005_Cluster_REM40_Sector001_macro" connection="sector"/>	
 				</connection>
-				<connection name="tzoneCluster_REM40_Sector001SHCon6_GateZone_connection" ref="zones">	<offset>	<position x="134166.84375" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_REM40_Sector001SHCon6_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_REM40_Sector001SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="143991.96875" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_REM40_Sector001SHCon10_GateZone_macro" connection="sector" />	</connection>								
+				<connection name="tzoneCluster_REM40_Sector001SHCon6_GateZone_connection"  ref="zones">	<offset>	<position x="-55535.78125" y="0" z="-200000"  />	</offset>	<macro ref="tzoneCluster_REM40_Sector001SHCon6_GateZone_macro"  connection="sector" />	</connection>
+				<connection name="tzoneCluster_REM40_Sector001SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="-45588.63671875" y="0" z="-200000"  />	</offset>	<macro ref="tzoneCluster_REM40_Sector001SHCon10_GateZone_macro" connection="sector" />	</connection>								
 			</connections>
 		</macro>
 		
@@ -1769,8 +1769,8 @@
 					</offset>	
 					<macro ref="Zone005_Cluster_REM40_Sector002_macro" connection="sector"/>	
 				</connection>
-				<connection name="tzoneCluster_REM40_Sector002SHCon5_GateZone_connection"  ref="zones">	<offset>	<position x="-55535.78125"    y="0" z="200000"  />	</offset>	<macro ref="tzoneCluster_REM40_Sector002SHCon5_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_REM40_Sector002SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="-45588.63671875" y="0" z="200000"  />	</offset>	<macro ref="tzoneCluster_REM40_Sector002SHCon9_GateZone_macro" connection="sector" />	</connection>				
+				<connection name="tzoneCluster_REM40_Sector002SHCon5_GateZone_connection" ref="zones">	<offset>	<position x="134166.84375" y="0" z="200000" />	</offset>	<macro ref="tzoneCluster_REM40_Sector002SHCon5_GateZone_macro" connection="sector" />	</connection>
+				<connection name="tzoneCluster_REM40_Sector002SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="143991.96875" y="0" z="200000" />	</offset>	<macro ref="tzoneCluster_REM40_Sector002SHCon9_GateZone_macro" connection="sector" />	</connection>				
 			</connections>
 		</macro>	
 		

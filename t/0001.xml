@@ -24,11 +24,12 @@
 			
 			<t id="08">{20005,8001} {20005,8003}{20404,7}{20404,9}{20403,1} (Matrix #79A)</t>
 			<t id="081">text</t>
-			
-			<t id="09">{20005,1041} {20402,1} (Power Circle I)</t>
-			<t id="091">text</t>
-			
-			<t id="10">{20005,1041} {20402,3} (Power Circle III)</t>
+
+			<t id="009">{20005,1041} (Power Circle)</t>
+			<t id="0091">text</t>						
+			<t id="09">{20005,1041 {20402,1} (Power Circle I)</t>
+			<t id="091">text</t>			
+			<t id="10">{20005,1041 {20402,3} (Power Circle III)</t>
 			<t id="101">text</t>
 			
 			<t id="11">{20005,6012} (Teladi Gain)</t>
@@ -66,16 +67,17 @@
 			
 			<t id="22">{20005,3026} (Duke's Domain)</t>
 			<t id="221">text</t>
-			
+
+			<t id="023">{20005,3038} (Perpetual Sin)</t>
+			<t id="0231">text</t>			
 			<t id="23">{20005,3038} {20402,1} (Perpetual Sin I)</t>
 			<t id="231">text</t>
-			
-			<t id="24">{20005,3018} (Sanctum Verge)</t>
+			<t id="24">{20005,3038} {20402,3} (Perpetual Sin III)</t>
 			<t id="241">text</t>
 			
-			<t id="25">{20005,3038} {20402,3} (Perpetual Sin III)</t>
+			<t id="25">{20005,3018} (Sanctum Verge)</t>
 			<t id="251">text</t>
-			
+						
 			<t id="26">{20005,3041} (Pontifex' Seclusion)</t>
 			<t id="261">text</t>
 			
@@ -99,22 +101,23 @@
 			
 			<t id="33">{20005,3042} {20402,4} (Preacher's Refuge IV)</t>	
 			<t id="331">text</t>
-			
+
+			<t id="034">{20005,3020} (Xaar's Belt)</t>
+			<t id="0341">text</t>			
 			<t id="34">{20005,3020} {20402,1} (Xaar's Belt I)</t>
-			<t id="341">text</t>
-			
+			<t id="341">text</t>			
 			<t id="35">{20005,3020} {20402,2} (Xaar's Belt II)</t>
-			<t id="351">text</t>
-			
+			<t id="351">text</t>			
 			<t id="36">{20005,3020} {20402,3} (Xaar's Belt III)</t>	
 			<t id="361">text</t>
 			
 			<t id="37">{20005,9003} (The Shallows)</t>
 			<t id="371">text</t>	
 			
+			<t id="038">{20005,5052} (Family Dhiok)</t>
+			<t id="0381">text</t>			
 			<t id="38">{20005,5052} {20402,1} (Family Dhiok I)</t>
-			<t id="381">text</t>
-			
+			<t id="381">text</t>			
 			<t id="39">{20005,5052} {20402,2} (Family Dhiok III)</t>
 			<t id="391">text</t>
 			
@@ -123,10 +126,11 @@
 			
 			<t id="41">{20005,5034} (Thyn's Excavation)</t>
 			<t id="411">text</t>
-			
+
+			<t id="042">{20005,2008} (Hila's Joy)</t>	
+			<t id="0421">text</t>			
 			<t id="42">{20005,2008} {20402,4} (Hila's Joy IV)</t>	
-			<t id="421">text</t>	
-			
+			<t id="421">text</t>				
 			<t id="43">{20005,2008} {20402,9} (Hila's Joy IX)</t>
 			<t id="431">text</t>
 			
@@ -141,16 +145,18 @@
 			
 			<t id="47">{20005,8001} {20005,8003}{20404,4}{20404,7}{20404,2}{20403,4} (Matrix #472D)</t>
 			<t id="471">text</t>
-			
+
+			<t id="048">{20005,9038} (Ocracoke's Storm)</t>
+			<t id="0481">text</t>				
 			<t id="48">{20005,9038} {20402,1} (Ocracoke's Storm I)</t>
-			<t id="481">text</t>
-			
+			<t id="481">text</t>			
 			<t id="49">{20005,9038} {20402,2} (Ocracoke's Storm II)</t>
 			<t id="491">text</t>	
-			
+
+			<t id="050">{20005,6025} (Shadows of Giants)</t>
+			<t id="0501">text</t>			
 			<t id="50">{20005,6025} {20402,6} (Shadows of Giants VI)</t>
-			<t id="501">text</t>
-			
+			<t id="501">text</t>			
 			<t id="51">{20005,6025} {20402,7} (Shadows of Giants VII)</t>
 			<t id="511">text</t>
 			
@@ -168,10 +174,11 @@
 			
 			<t id="56">{20005,6017} (Recovered Capital)</t>
 			<t id="561">text</t>
-			
+
+			<t id="057">{20005,9002} (Wretched Skies)</t>
+			<t id="0571">text</t>			
 			<t id="57">{20005,9002} {20402,2} (Wretched Skies II)</t>
-			<t id="571">text</t>
-			
+			<t id="571">text</t>			
 			<t id="58">{20005,9002} {20402,7} (Wretched Skies VII)</t>
 			<t id="581">text</t>
 			

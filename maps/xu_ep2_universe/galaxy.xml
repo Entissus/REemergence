@@ -24,9 +24,9 @@
 		<offset><position x="0" y="0" z="34640000" /></offset>
 	</replace>
 	
-	<!-- Sector 006 - Black Hole Sun --> <!--BROKEN-->
+	<!-- Sector 006 - Black Hole Sun -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_06_connection']/offset">
-		<offset><position x="-3000000" y="0" z="51960000" /></offset>
+		<offset><position x="-30000000" y="0" z="51960000" /></offset>
 	</replace>
 	
 	<!-- Sector 007 - The Reach -->
@@ -69,9 +69,9 @@
 		<offset><position x="-75000000" y="0" z="60620000" /></offset>
 	</replace>
 	
-	<!-- Sector 015 - Ianamus Zura --> <!--BROKEN-->
+	<!-- Sector 015 - Ianamus Zura -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_15_connection']/offset">
-		<offset><position x="120000000" y="0" z="-60620000" /></offset>
+		<offset><position x="120000000" y="0" z="-69280000" /></offset>
 	</replace>
 	
 	<!-- Sector 016 - Matrix #451 -->
@@ -94,12 +94,12 @@
 		<offset><position x="120000000" y="0" z="-34640000" /></offset>
 	</replace>
 	
-	<!-- Sector 020 - Company Regard --> <!--BROKEN-->
+	<!-- Sector 020 - Company Regard -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_20_connection']/offset">
-		<offset><position x="15000000" y="0" z="-51960000" /></offset>
+		<offset><position x="150000000" y="0" z="-51960000" /></offset>
 	</replace>
 	
-	<!-- Sector 021 - Scale Plate Green --> <!--BROKEN-->
+	<!-- Sector 021 - Scale Plate Green -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_21_connection']/offset">
 		<offset><position x="165000000" y="0" z="-60620000" /></offset>
 	</replace>
@@ -156,7 +156,7 @@
 	
 	<!-- Sector 032 - Tharka's Cascade -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_32_connection']/offset">
-		<offset><position x="-105000000" y="0" z="-8660000" /></offset>
+		<offset><position x="-75000000" y="0" z="-8660000" /></offset>
 	</replace>
 	
 	<!-- Sector 033 - Matrix #79B -->
@@ -337,9 +337,9 @@
 		<offset><position x="-30000000" y="0" z="-138560000" /></offset>
 	</replace>
 	
-	<!-- Sector 417 - Eleventh Hour --> <!--BROKEN-->
+	<!-- Sector 417 - Eleventh Hour -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_417_connection']/offset">
-		<offset><position x="-45000000" y="0" z="-12990000" /></offset>
+		<offset><position x="-45000000" y="0" z="-129900000" /></offset>
 	</replace>
 	
 	<!-- Sector 418 - Family Nhuut -->
@@ -509,37 +509,37 @@
 	
 	<!-- Sector 603 - Great Reef -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_603_connection']/offset">
-		<offset><position x="-165000000" y="0" z="8660000" /></offset>
+		<offset><position x="-150000000" y="0" z="17320000" /></offset>
 	</replace>
 	
 	<!-- Sector 604 - Ocean of Fantasy -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_604_connection']/offset">
-		<offset><position x="-150000000" y="0" z="17320000" /></offset>
+		<offset><position x="-165000000" y="0" z="8660000" /></offset>		
 	</replace>
 	
 	<!-- Sector 605 - Sanctuary of Darkness -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_605_connection']/offset">
-		<offset><position x="-165000000" y="0" z="43300000" /></offset>
+		<offset><position x="-150000000" y="0" z="51960000" /></offset>
 	</replace>
 	
 	<!-- Sector 606 - Kingdom End -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_606_connection']/offset">
-		<offset><position x="-135000000" y="0" z="60620000" /></offset>
+		<offset><position x="-180000000" y="0" z="69280000" /></offset>
 	</replace>
 	
 	<!-- Sector 607 - Rolk's Demise -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_607_connection']/offset">
-		<offset><position x="-135000000" y="0" z="77940000" /></offset>
+		<offset><position x="-195000000" y="0" z="77940000" /></offset>
 	</replace>
 	
 	<!-- Sector 608 - Atreus' Clouds -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_608_connection']/offset">
-		<offset><position x="-150000000" y="0" z="69280000" /></offset>
+		<offset><position x="-180000000" y="0" z="86600000" /></offset>
 	</replace>
 	
 	<!-- Sector 609 - Menelaus' Oasis -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_609_connection']/offset">
-		<offset><position x="-150000000" y="0" z="86600000" /></offset>
+		<offset><position x="-195000000" y="0" z="95260000" /></offset>
 	</replace>
 	
 <!--Farnham's Legend Revised-->	
@@ -634,13 +634,13 @@
 		
 		<!--Sector REM12 - Split Fire-->
 		<connection name="Cluster_REM12_connection" ref="clusters">
-		<offset><position x="-120000000" y="0" z="0" /></offset>
+		<offset><position x="-90000000" y="0" z="0" /></offset>
 			<macro ref="Cluster_REM12_macro" connection="galaxy" />
 		</connection>
 		
 		<!--Sector REM13 - Dark Waters-->
 		<connection name="Cluster_REM13_connection" ref="clusters">
-		<offset><position x="-195000000" y="0" z="60620000" /></offset>
+		<offset><position x="-195000000" y="0" z="25980000" /></offset>
 			<macro ref="Cluster_REM13_macro" connection="galaxy" />
 		</connection>
 		
@@ -652,7 +652,7 @@
 		
 		<!--Sector REM15 - Depths of Silence-->
 		<connection name="Cluster_REM15_connection" ref="clusters">
-		<offset><position x="-195000000" y="0" z="77940000" /></offset>
+		<offset><position x="-195000000" y="0" z="43300000" /></offset>
 			<macro ref="Cluster_REM15_macro" connection="galaxy" />
 		</connection>
 		
@@ -664,7 +664,7 @@
 		
 		<!--Sector REM17 - Shining Currents-->
 		<connection name="Cluster_REM17_connection" ref="clusters">
-		<offset><position x="-180000000" y="0" z="69280000" /></offset>
+		<offset><position x="-180000000" y="0" z="34640000" /></offset>
 			<macro ref="Cluster_REM17_macro" connection="galaxy" />
 		</connection>
 		
@@ -967,7 +967,7 @@
 	
 		<!--Sector REM68 - Kha'ak Sector Beta-->
 		<connection name="Cluster_REM68_connection" ref="clusters">
-		<offset><position x="-180000000" y="0" z="34640000" /></offset>
+		<offset><position x="-135000000" y="0" z="60620000" /></offset>
 			<macro ref="Cluster_REM68_macro" connection="galaxy" />
 		</connection>
 	
