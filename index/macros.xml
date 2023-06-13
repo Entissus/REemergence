@@ -31,7 +31,7 @@
 	<entry name="Cluster_REM25_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
 	<entry name="Cluster_REM26_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
 	<entry name="Cluster_REM27_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
-<!--	<entry name="Cluster_REM28_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	" /-->
+<!--	<entry name="Cluster_REM28_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />-->
 	<entry name="Cluster_REM29_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
 	<entry name="Cluster_REM30_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
 	<entry name="Cluster_REM31_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
@@ -50,7 +50,7 @@
 	<entry name="Cluster_REM44_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
 	<entry name="Cluster_REM45_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
 	<entry name="Cluster_REM46_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
-<!--	<entry name="Cluster_REM47_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	" /-->
+	<entry name="Cluster_REM47_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />
 	<entry name="Cluster_REM48_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
 	<entry name="Cluster_REM49_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
 	<entry name="Cluster_REM50_sector*" value="extensions\reemergence\maps\XU_ep2_universe\rem_sectors" />	
@@ -167,7 +167,7 @@
 	<entry name="Cluster_REM44_macro" value="extensions\reemergence\maps\XU_ep2_universe\rem_clusters" />	
 	<entry name="Cluster_REM45_macro" value="extensions\reemergence\maps\XU_ep2_universe\rem_clusters" />	
 	<entry name="Cluster_REM46_macro" value="extensions\reemergence\maps\XU_ep2_universe\rem_clusters" />	
-<!--	<entry name="Cluster_REM47_macro" value="extensions\reemergence\maps\XU_ep2_universe\rem_clusters" />	" /-->
+	<entry name="Cluster_REM47_macro" value="extensions\reemergence\maps\XU_ep2_universe\rem_clusters" />
 	<entry name="Cluster_REM48_macro" value="extensions\reemergence\maps\XU_ep2_universe\rem_clusters" />	
 	<entry name="Cluster_REM49_macro" value="extensions\reemergence\maps\XU_ep2_universe\rem_clusters" />	
 	<entry name="Cluster_REM50_macro" value="extensions\reemergence\maps\XU_ep2_universe\rem_clusters" />	

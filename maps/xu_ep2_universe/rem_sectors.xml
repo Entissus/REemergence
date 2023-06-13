@@ -4,6 +4,18 @@
 		<macro name="Cluster_REM00_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM00_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM00_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM00_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM00_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM00_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -41,6 +53,12 @@
 		<macro name="Cluster_REM01_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM01_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM01_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM01_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -78,6 +96,12 @@
 		<macro name="Cluster_REM02_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM02_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM02_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM02_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -115,6 +139,12 @@
 		<macro name="Cluster_REM03_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM03_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM03_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM03_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -152,6 +182,24 @@
 		<macro name="Cluster_REM04_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM04_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM04_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM04_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM04_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM04_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-127000" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM04_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM04_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -189,6 +237,18 @@
 		<macro name="Cluster_REM05_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM05_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM05_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM05_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM05_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM05_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -226,6 +286,12 @@
 		<macro name="Cluster_REM06_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM06_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM06_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM06_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -263,6 +329,18 @@
 		<macro name="Cluster_REM07_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM07_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM07_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM07_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM07_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM07_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -296,10 +374,16 @@
 			</connections>
 		</macro>
 		
-		<!--Sector REM08 - Power Circle I-->
+		<!--Sector REM08 - Power Circle III-->
 		<macro name="Cluster_REM08_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM08_Sector001_connection" ref="zones">
+					<offset>
+						<position x="82700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM08_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM08_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -335,10 +419,16 @@
 			</connections>
 		</macro>
 		
-		<!--Sector REM08 - Power Circle III-->
+		<!--Sector REM08 - Power Circle I-->
 		<macro name="Cluster_REM08_Sector002_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM08_Sector002_connection" ref="zones">
+					<offset>
+						<position x="-82700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM08_Sector002_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM08_Sector002_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -378,6 +468,12 @@
 		<macro name="Cluster_REM09_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM09_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM09_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM09_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -415,6 +511,18 @@
 		<macro name="Cluster_REM10_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM10_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM10_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM10_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-1270" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM10_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM10_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -452,6 +560,12 @@
 		<macro name="Cluster_REM11_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM11_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-82700" y="500" z="1850"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM11_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM11_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -489,6 +603,12 @@
 		<macro name="Cluster_REM12_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM12_Sector001_connection" ref="zones">
+					<offset>
+						<position x="127000" y="500" z="-18500"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM12_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM12_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -526,6 +646,18 @@
 		<macro name="Cluster_REM13_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM13_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM13_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM13_Sector001_connection" ref="zones">
+					<offset>
+						<position x="127000" y="500" z="-18500"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM13_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM13_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -563,6 +695,18 @@
 		<macro name="Cluster_REM14_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM14_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM14_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM14_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM14_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM14_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -600,6 +744,12 @@
 		<macro name="Cluster_REM15_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM15_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM15_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM15_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -637,6 +787,24 @@
 		<macro name="Cluster_REM16_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM16_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-82700" y="500" z="18500"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM16_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM16_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM16_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG3_Cluster_REM16_Sector001_connection" ref="zones">
+					<offset>
+						<position x="62700" y="500" z="-18500"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM16_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM16_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -674,6 +842,18 @@
 		<macro name="Cluster_REM17_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM17_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM17_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM17_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-44700" y="500" z="-65000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM17_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM17_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -711,6 +891,12 @@
 		<macro name="Cluster_REM18_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM18_Sector001_connection" ref="zones">
+					<offset>
+						<position x="42700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM18_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM18_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -748,6 +934,30 @@
 		<macro name="Cluster_REM19_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM19_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-62700" y="500" z="1850"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM19_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM19_Sector001_connection" ref="zones">
+					<offset>
+						<position x="62700" y="500" z="18500"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM19_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG3_Cluster_REM19_Sector001_connection" ref="zones">
+					<offset>
+						<position x="32700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM19_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG4_Cluster_REM19_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-102700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG4_Cluster_REM19_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM19_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -785,6 +995,12 @@
 		<macro name="Cluster_REM20_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM20_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-32700" y="500" z="-28500"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM20_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM20_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -822,6 +1038,18 @@
 		<macro name="Cluster_REM21_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM21_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM21_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM21_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM21_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM21_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -861,6 +1089,12 @@
 		<macro name="Cluster_REM21_Sector002_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM21_Sector002_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM21_Sector002_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM21_Sector002_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -900,6 +1134,12 @@
 		<macro name="Cluster_REM22_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM22_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM22_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM22_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -937,6 +1177,24 @@
 		<macro name="Cluster_REM23_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM23_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM23_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM23_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM23_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM23_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM23_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM23_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -974,6 +1232,12 @@
 		<macro name="Cluster_REM24_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM24_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM24_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM24_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1011,6 +1275,18 @@
 		<macro name="Cluster_REM25_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM25_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM25_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM25_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM25_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM25_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1048,6 +1324,12 @@
 		<macro name="Cluster_REM26_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM26_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM26_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM26_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1085,6 +1367,18 @@
 		<macro name="Cluster_REM27_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM27_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM27_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM27_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM27_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM27_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1125,6 +1419,18 @@
 		<macro name="Cluster_REM29_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM29_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM29_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM29_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM29_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM29_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1162,6 +1468,12 @@
 		<macro name="Cluster_REM30_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM30_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM30_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM30_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1203,6 +1515,12 @@
 		<macro name="Cluster_REM30_Sector002_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM30_Sector002_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM30_Sector002_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM30_Sector002_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1244,6 +1562,12 @@
 		<macro name="Cluster_REM30_Sector003_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM30_Sector003_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM30_Sector003_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM30_Sector003_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1285,6 +1609,24 @@
 		<macro name="Cluster_REM31_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM31_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM31_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM31_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM31_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM31_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM31_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM31_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1322,6 +1664,12 @@
 		<macro name="Cluster_REM32_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM32_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM32_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM32_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1361,6 +1709,12 @@
 		<macro name="Cluster_REM32_Sector002_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM32_Sector002_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM32_Sector002_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM32_Sector002_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1400,6 +1754,18 @@
 		<macro name="Cluster_REM33_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM33_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM33_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM33_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM33_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM33_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1437,6 +1803,18 @@
 		<macro name="Cluster_REM34_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM34_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM34_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM34_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM34_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM34_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1470,10 +1848,16 @@
 			</connections>
 		</macro>	
 		
-		<!--Sector REM35 - Hila's Joy IV-->
+		<!--Sector REM35 - Hila's Joy -->
 		<macro name="Cluster_REM35_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM35_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-127000" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM35_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM35_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1509,10 +1893,22 @@
 			</connections>
 		</macro>
 		
-		<!--Sector REM35 - Hila's Joy IX-->
+		<!--Sector REM35 - Hila's Joy -->
 		<macro name="Cluster_REM35_Sector002_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM35_Sector002_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM35_Sector002_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM35_Sector002_connection" ref="zones">
+					<offset>
+						<position x="127000" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM35_Sector002_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM35_Sector002_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1552,6 +1948,24 @@
 		<macro name="Cluster_REM36_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM36_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM36_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM36_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM36_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM36_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM36_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM36_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1589,6 +2003,24 @@
 		<macro name="Cluster_REM37_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM37_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM37_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM37_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM37_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM37_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM37_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM37_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1626,6 +2058,24 @@
 		<macro name="Cluster_REM38_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM38_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-127000" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM38_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM38_Sector001_connection" ref="zones">
+					<offset>
+						<position x="127000" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM38_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM38_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-127000" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM38_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM38_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1663,6 +2113,18 @@
 		<macro name="Cluster_REM39_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM39_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM39_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM39_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM39_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM39_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1700,6 +2162,12 @@
 		<macro name="Cluster_REM40_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM40_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM40_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM40_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1739,6 +2207,12 @@
 		<macro name="Cluster_REM40_Sector002_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM40_Sector002_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM40_Sector002_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM40_Sector002_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1778,6 +2252,12 @@
 		<macro name="Cluster_REM41_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM41_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM41_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM41_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1817,6 +2297,12 @@
 		<macro name="Cluster_REM41_Sector002_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM41_Sector002_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM41_Sector002_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM41_Sector002_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1856,6 +2342,24 @@
 		<macro name="Cluster_REM42_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM42_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM42_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM42_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM42_Sector001_macro" connection="sector" />
+				</connection>					
+				<connection name="ZoneG3_Cluster_REM42_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="185000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM42_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM42_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1893,6 +2397,24 @@
 		<macro name="Cluster_REM43_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM43_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM43_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM43_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM43_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG3_Cluster_REM43_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM43_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM43_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1930,6 +2452,18 @@
 		<macro name="Cluster_REM44_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM44_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM44_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM44_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM44_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM44_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -1967,6 +2501,18 @@
 		<macro name="Cluster_REM45_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM45_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM45_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM45_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM45_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM45_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2004,6 +2550,18 @@
 		<macro name="Cluster_REM46_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM46_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM46_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM46_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM46_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM46_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2037,12 +2595,65 @@
 			</connections>
 		</macro>
 		
-		<!--Sector REM47 - UNUSED-->
-			
+		<!--Sector REM47 - Spaceweed Grove-->
+		<macro name="Cluster_REM47_Sector001_macro" class="sector">
+			<component ref="standardsector" />
+			<connections>
+				<connection name="ZoneG1_Cluster_REM47_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM47_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM47_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM47_Sector001_macro" connection="sector" />
+				</connection>				
+				<connection name="Zone001_Cluster_REM47_Sector001_connection" ref="zones">	
+					<offset>	
+						<position x="0" y="0" z="0"/>	
+					</offset>	
+					<macro ref="Zone001_Cluster_REM47_Sector001_macro" connection="sector"/>	
+				</connection>
+				<connection name="Zone002_Cluster_REM47_Sector001_connection" ref="zones">	
+					<offset>	
+						<position x="0" y="0" z="0"/>	
+					</offset>	
+					<macro ref="Zone002_Cluster_REM47_Sector001_macro" connection="sector"/>	
+				</connection>
+				<connection name="Zone003_Cluster_REM47_Sector001_connection" ref="zones">	
+					<offset>	
+						<position x="0" y="0" z="0"/>	
+					</offset>	
+					<macro ref="Zone003_Cluster_REM47_Sector001_macro" connection="sector"/>	
+				</connection>
+				<connection name="Zone004_Cluster_REM47_Sector001_connection" ref="zones">	
+					<offset>	
+						<position x="0" y="0" z="0"/>	
+					</offset>	
+					<macro ref="Zone004_Cluster_REM47_Sector001_macro" connection="sector"/>	
+				</connection>
+				<connection name="Zone005_Cluster_REM47_Sector001_connection" ref="zones">	
+					<offset>	
+						<position x="0" y="0" z="0"/>	
+					</offset>	
+					<macro ref="Zone005_Cluster_REM47_Sector001_macro" connection="sector"/>	
+				</connection>
+			</connections>
+		</macro>
+		
 		<!--Sector REM48 - Wretched Skies II-->
 		<macro name="Cluster_REM48_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM48_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM48_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM48_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2082,6 +2693,18 @@
 		<macro name="Cluster_REM48_Sector002_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM48_Sector002_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM48_Sector002_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM48_Sector002_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-185000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM48_Sector002_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM48_Sector002_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2121,6 +2744,24 @@
 		<macro name="Cluster_REM49_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM49_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM49_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM49_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM49_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM49_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM49_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM49_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2158,6 +2799,18 @@
 		<macro name="Cluster_REM50_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM50_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM50_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM50_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM50_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM50_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2195,6 +2848,24 @@
 		<macro name="Cluster_REM51_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM51_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM51_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM51_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM51_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM51_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM51_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM51_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2232,6 +2903,12 @@
 		<macro name="Cluster_REM52_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM52_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM52_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM52_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2269,6 +2946,18 @@
 		<macro name="Cluster_REM53_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM53_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM53_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM53_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM53_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM53_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2306,6 +2995,12 @@
 		<macro name="Cluster_REM54_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM54_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM54_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM54_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2343,6 +3038,18 @@
 		<macro name="Cluster_REM55_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM55_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM55_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM55_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM55_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM55_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2380,6 +3087,18 @@
 		<macro name="Cluster_REM56_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM56_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM56_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM56_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM56_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM56_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2417,6 +3136,30 @@
 		<macro name="Cluster_REM57_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM57_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM57_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM57_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM57_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM57_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM57_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG4_Cluster_REM57_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG4_Cluster_REM57_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM57_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2454,6 +3197,24 @@
 		<macro name="Cluster_REM58_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM58_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM58_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG2_Cluster_REM58_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM58_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG3_Cluster_REM58_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM58_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM58_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2491,6 +3252,18 @@
 		<macro name="Cluster_REM59_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM59_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM59_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM59_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM59_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM59_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2528,6 +3301,18 @@
 		<macro name="Cluster_REM60_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM60_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM60_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM60_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM60_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM60_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2565,6 +3350,24 @@
 		<macro name="Cluster_REM61_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM61_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM61_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM61_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM61_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG3_Cluster_REM61_Sector001_connection" ref="zones">
+					<offset>
+						<position x="32700" y="500" z="-75000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM61_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM61_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2602,6 +3405,18 @@
 		<macro name="Cluster_REM62_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM62_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM62_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM62_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM62_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM62_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2639,6 +3454,18 @@
 		<macro name="Cluster_REM63_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM63_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM63_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM63_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM63_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM63_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2676,6 +3503,18 @@
 		<macro name="Cluster_REM64_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM64_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM64_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM64_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM64_Sector001_macro" connection="sector" />
+				</connection>				
 				<connection name="Zone001_Cluster_REM64_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2713,6 +3552,24 @@
 		<macro name="Cluster_REM65_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM65_Sector001_connection" ref="zones">
+					<offset>
+						<position x="127000" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM65_Sector001_macro" connection="sector" />
+				</connection>
+				<connection name="ZoneG2_Cluster_REM65_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-12700" y="500" z="50000"/>
+					</offset>
+					<macro ref="ZoneG2_Cluster_REM65_Sector001_macro" connection="sector" />
+				</connection>	
+				<connection name="ZoneG3_Cluster_REM65_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-127000" y="500" z="-5000"/>
+					</offset>
+					<macro ref="ZoneG3_Cluster_REM65_Sector001_macro" connection="sector" />
+				</connection>					
 				<connection name="Zone001_Cluster_REM65_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2750,6 +3607,12 @@
 		<macro name="Cluster_REM66_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM66_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM66_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM66_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2787,6 +3650,12 @@
 		<macro name="Cluster_REM67_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM67_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM67_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM67_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2824,6 +3693,12 @@
 		<macro name="Cluster_REM68_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM68_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM68_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM68_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	
@@ -2861,6 +3736,12 @@
 		<macro name="Cluster_REM69_Sector001_macro" class="sector">
 			<component ref="standardsector" />
 			<connections>
+				<connection name="ZoneG1_Cluster_REM69_Sector001_connection" ref="zones">
+					<offset>
+						<position x="12700" y="500" z="5000"/>
+					</offset>
+					<macro ref="ZoneG1_Cluster_REM69_Sector001_macro" connection="sector" />
+				</connection>			
 				<connection name="Zone001_Cluster_REM69_Sector001_connection" ref="zones">	
 					<offset>	
 						<position x="0" y="0" z="0"/>	

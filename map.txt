@@ -1,0 +1,254 @@
+(TERRAN AREA) (4)
+REM00 Oort Cloud Beta -2,12
+REM01 Matrix #01 -1.5,11.5
+REM02 Mars Beta 0,12
+REM03 Mercury Beta 1,12
+
+
+(PIONEER AREA) (3)
+REM04 Althes -4.5,8.5
+REM05 Megnir -4,8
+REM06 Matrix #48 -5,9
+
+
+(ANTIGONE AREA) (4)
+REM07 Matrix #79A -2,8
+REM08 Power Circle I -1.5,6.5
+	  Power Circle III
+REM09 Teladi Gain 0,6
+
+
+(ARGON PRIME AREA) (2)
+REM10 Herron's Nebula -3.5,5.5
+REM11 Montalaar -2,3
+xxx   Memory of Profit IX (moved) -3.5,3.5
+xxx   Memory of Profit X (moved) -3.5,4.5
+
+(XENON BETWEEN ARG AND ZYA) (1)
+REM12 Split Fire -3,0
+
+(BORON KINGDOM AREA) (7)
+REM13 Dark Waters -6.5,3.5
+REM14 Mists of Elysium -5.5,7.5
+REM15 Depths of Silence -6.5,4.5
+REM16 Light Water -5.5,6.5
+REM17 Shining Currents -6,4
+REM18 Shore of Infinity -6.5,7.5
+REM19 Reservoir of Tranquillity -6,7
+
+
+(HOP AREA) (6)
+REM20 Duke's Domain 2,7
+REM21 Perpetual Sin I 2,5
+	  Perpetual Sin III
+REM22 Pontifex' Seclusion 0,4
+REM23 Unholy Descent 2.5,4.5
+REM29 Sanctum Verge	1.5,4.5
+
+(PAR AREA) (7)
+REM24 Cathedral of Xaar 3.5,3.5
+REM25 Clarity's End 4,1
+REM26 Desecrated Skies 4.5,0.5
+REM27 Perdition's End 3.5,0.5
+------(REM28) Preacher's Refuge I
+	  (REM28)Preacher's Refuge IV 
+REM30 Xaar's Belt I 4,1
+	  Xaar's Belt II
+	  Xaar's Belt III
+
+
+(BORON/SPLIT CLUSTER) (15)
+REM31 The Shallows 4.5,5.5
+REM32 Family Dhiok I 4,6
+	  Family Dhiok III
+REM33 Thyn's Abyss 5.5,5.5
+REM34 Thyn's Excavation 5,6
+REM35 Hila's Joy IV 5,4
+	  Hila's Joy IX
+REM36 Great Trench 5.5,4.5
+REM37 Lucky Planets 4.5,3.5
+REM38 Queen's Space 4.5,4.5
+REM39 Matrix #472D 5,5
+REM40 Ocracoke's Storm I 6,2
+	  Ocracoke's Storm II
+REM41 Shadows of Giants VI 6,0
+	  Shadows of Giants VII
+
+
+(CENTER/GE AREA) (4)
+REM42 Bala Gi's Joy -1,0
+REM43 Blue Profit 1,-1
+REM44 PTNI Headquarters 1.5,-0.5
+REM45 The Vault 1,0
+
+
+(ZYA/PAR/HOP AREA) (7)
+REM46 Recovered Capital -3.5,-2.5
+REM47 <-UNUSED->
+REM48 Wretched Skies II -5,-3
+	  Wretched Skies VII
+REM49 Duke's Vision I -5,-4
+REM50 Duke's Vision II -5.5,-4.5
+REM51 LooMankStrat's Legacy -5.5,-3.5
+REM52 Danna's Chance -6,-2
+
+
+(OTAS AREA) (6)
+REM53 Legend's Home Alpha 1.5,-3.5
+REM54 Legend's Home Beta 1.5,-5.5
+REM55 Akeela's Beacon 1.5,-3.5
+REM56 Aladna Hill 1,-4
+REM57 Light of Heart 1,-3
+REM58 Moo-Kye's Revenge 0.5,-2.5
+
+
+(SCALE PLATE GREEN AREA) (1)
+REM59 Mines of Fortune 5.5,-2.5
+
+
+(ZYA AREA) (6)
+REM60 Zyarth's Stand -3,-7
+REM61 Zyarth's Fall -2.51-7.5
+REM62 Elena's Fortune -1.5,-8.5
+REM63 Nyana's Hideout -1,-9
+REM64 Interworlds 0,-9
+REM65 Wastelands 1,-7
+
+
+(FRF AREA) (1)
+REM66 Ghinn's Escape 4,-7
+
+(OTHER) (5)
+REM67 Kha'ak Sector Alpha 2.5,5.5
+REM68 Kha'ak Sector Beta -6,2
+REM69 Kha'ak Sector Gamma -0.5,-4.5
+REM70 Unknown Kha'ak Sector -6.5,9.5
+REM71 Unknown Sector -5,11
+REM72 Kha'ak Hive 5.5,-6.5
+
+
+
+
+
+VANILLA SECTORS
+--Argon--
+Argon Prime -2.5,3.5
+The Reach -2.5,4.5
+Hat. Choice I\III -2.5, 2.5
+Morning Star III -3,3
+Morning Star IV -3,4
+Black Hole Sun -1,3
+Silent Witness I -0.5,-2.5
+Guiding Star -1,-8
+Eleventh Hour -1.5,-7.5
+
+--Antigone--
+The Void -0.5,6.5 
+Antigone Memorial -1,7
+Second Contact II -1,5
+Second Contact VII -1,6
+Second Contact XI -1.5,5.5
+
+--Holy Order--
+True Sight 0.5,4.5
+Holy Vision 1,5
+Pontifex's Claim 1,4
+Cardinal's Redress 1.5,5.5
+Lasting Vengeance 1.5,6.5
+
+--Godrealm--
+Pios Mists II 2.5,2.5
+Pios Mists IV 3,3
+Pios Mist XI 3,2
+Sacred Relic 3.5,2.5
+Unholy Retribution 2.5,0.5
+Trinity Sanctum III 2.5,-0.5
+Trinity Sanctum VII 3,0
+Wretched Skies X -4,2
+Litany of Fury IX\XII -5.5,-2.5
+
+
+--Teladi--
+Grand Exchange I\III\IV 0,0
+Path to Profit 0,2
+Eighteen Billion 0.5,1.5
+Alpha Centre Alpha 2,-2
+Bright Promise 2.5,-2.5
+Two Grand 0,-7
+Open Market -0.5,-6.5
+Hewa's Twin I\II 4,2
+Hewa's Twin III\IV 4.5,-1.5
+Company Regard 5,-3
+Ianamus Zura 4,-4
+
+--Zyarth--
+Wretched Skies V -3.5,-1.5
+Wretched Skies IV -3,-2
+Family Zhin -2,-3 (moved)
+Family Kritt -2,-2 (moved)
+Family Nhuut -2,-5
+Zyarth's Dominion I -2.5,-5.5
+Zyarth's Dominion IV -2,-6
+Zyarth's Dominion X -2.5,-6.5
+
+--Free Families--
+Fires of Defeat 3,-7
+Family Tkr 3.5,-6.5
+Thuruk's Demise II\III 4,-6
+Tharka's Ravine XXIV 3.5,-7.5
+Tharka's Ravine XVI 3.5,-8.5
+Tharka's Ravine VIII 3,-9
+Heart of Acrimony II 4,-9
+
+--Terran--
+Asteroid Belt -0.5,10.5
+Mars 0,11
+Venus 0.5,10.5
+Mercury 1,11
+The Moon\Earth 0.5,11.5
+Jupiter -1.5,10.5
+Saturn 1\2\Titan -2,10
+Uranus -2.5,10.5
+Neptune -3,11
+Pluto -2.5,11.5
+Oort Cloud -2,11
+
+--Pioneers--
+Brennan's Triumph -4,9
+Gaian Prophecy -3.5,8.5
+Segaris -3.5,7.5
+
+--Boron--
+Barren Shores -5,0
+Great Reef -5.5,0.5
+Ocean of Fantasy -5,1
+Kingdom End\Towering Wave\Reflected Stars -4.5,3.5
+Rolk's Demise -4.5,4.5
+Atreus Clouds -5,-4
+Menelaus Oasis -5,-5
+
+--Xennon--
+Tharka's Ravine IV 2.5,-8.5
+Matrix #598 -3,-4
+Matrix #9 3,-5
+Matrix #451 3.5,-4.5
+Rhy's Defiance -2.5,-3.5
+Savage Spur -1,8
+Tharka's Cascade -2.5,-.05
+Emperor's Pride -5.5,1.5
+Scale Plate Green 5.5,-3.5
+Atiya's Misfortune 1,9
+Faulty Logic 1,6
+
+--Unclaimed--
+Heretics End -3.5,1.5
+Getsu Fune -0.5,7.5
+Frontier Edge 0.5,8.5
+Silent Witness XI -1,-3
+Silent Witnnes XII -1,-4
+Nopileos' Fortune II\IV 2,2
+Hewa's Twin V 4,-1
+Hewa's Twin IV 4.5,-1.5
+Watchful Gaze -4.5,-0.5
+Sanc. of Darkness -5.5,2.5
+Heart of Acrimony I 4.5,-8.5

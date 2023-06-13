@@ -9,7 +9,7 @@
 						<component connection="space" ref="Cluster_116" />
 					</macro>
 				</connection>
-				<connection name="Cluster_REM0_Sector001_connection" ref="sectors">
+				<connection name="Cluster_REM00_Sector001_connection" ref="sectors">
 					<macro ref="Cluster_REM00_Sector001_macro" connection="cluster" />
 				</connection>				
 			</connections>
@@ -51,7 +51,7 @@
 			<connections>
 				<connection ref="content">
 					<macro>
-						<component connection="space" ref="Cluster_106B" />
+						<component connection="space" ref="Cluster_106" />
 					</macro>
 				</connection>
 				<connection name="Cluster_REM03_Sector001_connection" ref="sectors">
@@ -1059,7 +1059,20 @@
 			</connections>
 		</macro>
 		
-		<!--Sector REM47 - UNUSED-->
+		<!--Sector REM47 - Spaceweed Grove-->
+		<macro name="Cluster_REM47_macro" class="cluster">
+			<component ref="standardcluster" />
+			<connections>
+				<connection ref="content">
+					<macro>
+						<component connection="space" ref="Cluster_REM00" />
+					</macro>
+				</connection>
+				<connection name="Cluster_REM47_Sector001_connection" ref="sectors">
+					<macro ref="Cluster_REM47_Sector001_macro" connection="cluster" />
+				</connection>				
+			</connections>
+		</macro>
 		
 		<!--Sector REM48 - Wretched Skies Cluster-->
 		<macro name="Cluster_REM48_macro" class="cluster">

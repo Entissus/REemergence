@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>	
+	<!-- Sector 001 - Grand Exchange I/III/IV-->
+	<!-- Sector 002 - Eighteen Billion -->	
+	<!-- Sector 003 - Memory of Profit IX -->	
+	<!-- Sector 004 - Nopileos' Fortune II/IV-->
+	<!-- Sector 005 - Path to Profit -->
+	<replace sel="/macros/macro[@name='Cluster_05_Sector001_macro']/connections/connection[@name='Zone001_Cluster_05_Sector001_connection']/offset">
+		<offset>	<position x="17177" y="0" z="-84000" />	</offset>
+	</replace>
+
+	
+	<!-- Sector 006 - Black Hole Sun IV/V-->
+	<!-- Sector 007 - The Reach -->	
+	<!-- Sector 008 - Silent Witness I -->	
+	<!-- Sector 009 - Bright Promise -->
+	<!-- Sector 010 - Unholy Retribution -->
+	<!-- Sector 011 - Pontifex's Claim -->
+	<!-- Sector 012 - True Sight -->
+	<!-- Sector 013 - Second Contact II -->	
+	<!-- Sector 014 - Argon Prime -->	
+	<!-- Sector 015 - Ianamus Zura IV/VII-->
+	<!-- Sector 016 - Matrix #451 -->
+	<!-- Sector 017 - Matrix #9 -->
+	<!-- Sector 018 - Trinity Sanctum III -->
+	<!-- Sector 019 - Hewa's Twin I/II -->
+	<!-- Sector 020 - Company Regard -->	
+	<!-- Sector 021 - Scale Plate Green I/VII-->	
+	<!-- Sector 022 - Pious Mists II -->	
+	<!-- Sector 023 - Sacred Relic -->	
+	<!-- Sector 024 - Holy Vision -->	
+	<!-- Sector 025 - Faulty Logic I/VII-->	
+	<!-- Sector 026 - Atiya's Misfortune I/III-->	
+	<!-- Sector 027 - The Void -->	
+	<!-- Sector 028 - Antigone Memorial -->	
+	<!-- Sector 029 - Hatikvah's Choice I/III-->
+	<!-- Sector 030 - Morning Star III -->	
+	<!-- Sector 031 - Heretic's End -->	
+	<!-- Sector 032 - Tharka's Cascade -->	
+	<!-- Sector 033 - Matrix 79B -->	
+	<!-- Sector 034 - Profit Center Alpha -->	
+	<!-- Sector 035 - Lasting Vengeance -->	
+	<!-- Sector 036 - Cardinal's Redress -->
+	<!-- Sector 037 - Pious Mists IV -->
+	<!-- Sector 038 - Pious Mists IX -->
+	<!-- Sector 039 - Memory of Profit X -->
+	<!-- Sector 040 - Second Contact VII -->	
+	<!-- Sector 041 - Second Contact XI -->
+	<!-- Sector 042 - Hewa's Twin III/IV -->	
+	<!-- Sector 043 - Hewa's Twin V -->	
+	<!-- Sector 044 - Silent Witness XI -->	
+	<!-- Sector 045 - Silent Witness XII -->
+	<!-- Sector 046 - Morning Star IV -->	
+	<!-- Sector 047 - Trinity Sanctum VII -->	
+	<!-- Sector 048 - Getsu Fune -->	
+	<!-- Sector 049 - Frontier Edge -->	
+	<!-- Sector 050 - Turquoise Sea IX/X-->
+
+		
+<!--New Gates-->
+	<!-- Sector 001 - Grand Exchange I/III/IV-->
+	<add sel="//macro[@name='Cluster_01_Sector002_macro']/connections"><!--Path to Profit-->
+		<connection name="Zone_Gate_Cluster_01_Sector002_connection" ref="zones">
+			<offset>
+				<position x="-65000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_01_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>	
+	<add sel="//macro[@name='Cluster_01_Sector003_macro']/connections"><!--Nopileos' Fortune II-->
+		<connection name="Zone_Gate_Cluster_01_Sector003_connection" ref="zones">
+			<offset>
+				<position x="105000" y="0" z="54000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_01_Sector003_macro" connection="sector"/>
+		</connection>
+	</add>
+
+
+	<!-- Sector 002 - Eighteen Billion -->	
+	<!-- Sector 003 - Memory of Profit IX -->		
+	<!-- Sector 004 - Nopileos' Fortune II/IV-->
+	<add sel="//macro[@name='Cluster_04_Sector001_macro']/connections"><!--Black Hole Sun V-->
+		<connection name="Zone_Gate_Cluster_04_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-35000" y="0" z="-140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_04_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>	
+	
+	<!-- Sector 005 - Path to Profit -->
+	<add sel="//macro[@name='Cluster_05_Sector001_macro']/connections"><!--Black Hole Sun V-->
+		<connection name="Zone_Gate1_Cluster_05_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-35000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate1_Cluster_05_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>	
+	<add sel="//macro[@name='Cluster_05_Sector001_macro']/connections"><!--Eighteen Billion-->
+		<connection name="Zone_Gate2_Cluster_05_Sector001_connection" ref="zones">
+			<offset>
+				<position x="35000" y="0" z="-140000"/>
+			</offset>
+			<macro ref="Zone_Gate2_Cluster_05_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+
+	
+	<!-- Sector 006 - Black Hole Sun IV/V-->
+	<add sel="//macro[@name='Cluster_06_Sector002_macro']/connections"><!--Windfall I-->
+		<connection name="Zone_Gate_Cluster_06_Sector002_connection" ref="zones">
+			<offset>
+				<position x="-35000" y="0" z="-140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_06_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>	
+
+	
+	<!-- Sector 007 - The Reach -->
+	<add sel="//macro[@name='Cluster_07_Sector001_macro']/connections"><!--Herron's Nebula-->
+		<connection name="Zone_Gate_Cluster_07_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-35000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_07_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>	
+
+	
+	<!-- Sector 008 - Silent Witness I -->	
+	<!-- Sector 009 - Bright Promise -->
+	<!-- Sector 010 - Unholy Retribution -->
+	<!-- Sector 011 - Pontifex's Claim -->
+	<add sel="//macro[@name='Cluster_11_Sector001_macro']/connections"><!--Holy Vision-->
+		<connection name="Zone_Gate1_Cluster_11_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate1_Cluster_11_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="//macro[@name='Cluster_11_Sector001_macro']/connections"><!--Sanctum Verge-->
+		<connection name="Zone_Gate2_Cluster_11_Sector001_connection" ref="zones">
+			<offset>
+				<position x="85000" y="0" z="-140000"/>
+			</offset>
+			<macro ref="Zone_Gate2_Cluster_11_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	
+	
+	<!-- Sector 012 - True Sight -->
+	<add sel="//macro[@name='Cluster_12_Sector001_macro']/connections"><!--Holy Vision-->
+		<connection name="Zone_Gate1_Cluster_12_Sector001_connection" ref="zones">
+			<offset>
+				<position x="85000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate1_Cluster_12_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="//macro[@name='Cluster_12_Sector001_macro']/connections"><!--Pontifex' Seclusion-->
+		<connection name="Zone_Gate2_Cluster_12_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="-140000"/>
+			</offset>
+			<macro ref="Zone_Gate2_Cluster_12_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	
+	
+	<!-- Sector 013 - Second Contact II -->	
+	<!-- Sector 014 - Argon Prime -->	
+	<!-- Sector 015 - Ianamus Zura -->
+	<!-- Sector 016 - Matrix #451 -->
+	<!-- Sector 017 - Matrix #9 -->
+	<!-- Sector 018 - Trinity Sanctum III -->
+	<!-- Sector 019 - Hewa's Twin I/II -->
+	<add sel="//macro[@name='Cluster_19_Sector002_macro']/connections"><!--Frontier Edge-->
+		<connection name="Zone_Gate_Cluster_19_Sector002_connection" ref="zones">
+			<offset>
+				<position x="75000" y="0" z="-140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_19_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>	
+	
+	<!-- Sector 020 - Company Regard -->	
+	<!-- Sector 021 - Scale Plate Green I/VII-->	
+	<!-- Sector 022 - Pious Mists II -->	
+	<!-- Sector 023 - Sacred Relic -->
+	<add sel="//macro[@name='Cluster_23_Sector001_macro']/connections"><!--Lucky Planets-->
+		<connection name="Zone_Gate_Cluster_23_Sector001_connection" ref="zones">
+			<offset>
+				<position x="85000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_23_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	
+	<!-- Sector 024 - Holy Vision -->	
+	<!-- Sector 025 - Faulty Logic I/VII-->	
+	<!-- Sector 026 - Atiya's Misfortune I/III-->	
+	<!-- Sector 027 - The Void -->	
+	<!-- Sector 028 - Antigone Memorial -->	
+	<!-- Sector 029 - Hatikvah's Choice I/III-->
+	
+	<!-- Sector 030 - Morning Star III -->	
+	<add sel="//macro[@name='Cluster_30_Sector001_macro']/connections"><!--Memory of Profit IX-->
+		<connection name="Zone_Gate_Cluster_30_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_30_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	
+	<!-- Sector 031 - Heretic's End -->	
+	<!-- Sector 032 - Tharka's Cascade XV/XVII-->	
+	<!-- Sector 033 - Matrix #79B -->	
+	<!-- Sector 034 - Profit Center Alpha -->	
+	<!-- Sector 035 - Lasting Vengeance -->
+	<add sel="//macro[@name='Cluster_35_Sector001_macro']/connections"><!--Duke's Domain-->
+		<connection name="Zone_Gate_Cluster_35_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_35_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	
+	<!-- Sector 036 - Cardinal's Redress -->
+	<!-- Sector 037 - Pious Mists IV -->
+	<add sel="//macro[@name='Cluster_37_Sector001_macro']/connections"><!--Cathedral of Xaar-->
+		<connection name="Zone_Gate_Cluster_37_Sector001_connection" ref="zones">
+			<offset>
+				<position x="105000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_37_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	
+	<!-- Sector 038 - Pious Mists IX -->
+	<!-- Sector 039 - Memory of Profit X -->
+	<!-- Sector 040 - Second Contact VII -->	
+	<!-- Sector 041 - Second Contact XI -->
+	<add sel="//macro[@name='Cluster_41_Sector001_macro']/connections"><!--Power Circle I-->
+		<connection name="Zone_Gate_Cluster_41_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_41_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+
+	
+	<!-- Sector 042 - Hewa's Twin III/IV -->
+	<add sel="//macro[@name='Cluster_42_Sector002_macro']/connections"><!--Hewa's Twin V-->
+		<connection name="Zone_Gate_Cluster_42_Sector002_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_42_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>
+	
+	<!-- Sector 043 - Hewa's Twin V -->	
+	<!-- Sector 044 - Silent Witness XI -->	
+	<!-- Sector 045 - Silent Witness XII -->
+	<add sel="//macro[@name='Cluster_45_Sector001_macro']/connections"><!--Frontier Edge-->
+		<connection name="Zone_Gate_Cluster_45_Sector001_connection" ref="zones">
+			<offset>
+				<position x="75000" y="0" z="-140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_45_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>		
+	
+	
+	<!-- Sector 046 - Morning Star IV -->	
+	<!-- Sector 047 - Trinity Sanctum VII -->
+	<add sel="//macro[@name='Cluster_47_Sector001_macro']/connections"><!--Perdition's End-->
+		<connection name="Zone_Gate_Cluster_47_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_47_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	
+	<!-- Sector 048 - Getsu Fune -->
+	<add sel="//macro[@name='Cluster_48_Sector001_macro']/connections"><!--Frontier Edge-->
+		<connection name="Zone_Gate_Cluster_48_Sector001_connection" ref="zones">
+			<offset>
+				<position x="105000" y="0" z="34000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_48_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>	
+
+	
+	<!-- Sector 049 - Frontier Edge -->	
+	<!-- Sector 050 - Turquoise Sea IX/X-->	
+	<add sel="//macro[@name='Cluster_50_Sector001_macro']/connections"><!--Mines of Misfortune-->
+		<connection name="Zone_Gate1_Cluster_50_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="94000"/>
+			</offset>
+			<macro ref="Zone_Gate1_Cluster_50_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="//macro[@name='Cluster_50_Sector001_macro']/connections"><!--Shadows of Giants VII-->
+		<connection name="Zone_Gate2_Cluster_50_Sector001_connection" ref="zones">
+			<offset>
+				<position x="85000" y="0" z="94000"/>
+			</offset>
+			<macro ref="Zone_Gate2_Cluster_50_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>	
+	
+</diff>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<!--
+	<replace sel="/macros/macro[@name='Cluster_###_Sector001_macro']/connections/connection[@name='Zone00#_Cluster_###_Sector001_connection']/offset">
+		<offset>	
+		  <position x="0" y="0" z="0" />	
+		</offset>
+	</replace>
+-->	
+	<!-- Sector 400 - Wretched Skies IV Family Valka-->
+	<replace sel="/macros/macro[@name='Cluster_400_Sector001_macro']/connections/connection[@name='Zone001_Cluster_400_Sector001_connection']/offset"><!--Wretched Skies V Family Phi-->
+		<offset>	
+          <position x="-114153.03125" y="0" z="96897.58984375" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_400_Sector001_macro']/connections/connection[@name='Zone004_Cluster_400_Sector001_connection']/offset"><!--Family Zhin-->
+		<offset>	
+          <position x="12201.28125" y="0" z="81614.76953125" />
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_400_Sector001_macro']/connections">
+		<connection name="Zone_Gate_Cluster_400_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="-89000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_400_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>	
+
+	<!-- Sector 401 - Family Zhin -->
+	<replace sel="/macros/macro[@name='Cluster_401_Sector001_macro']/connections/connection[@name='Zone001_Cluster_401_Sector001_connection']/offset"><!--Rhy's Defiance-->
+		<offset>	
+          <position x="-105584.2421875" y="0" z="-91137.51953125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_401_Sector001_macro']/connections/connection[@name='Zone002_Cluster_401_Sector001_connection']/offset"><!--Family Kritt-->
+		<offset>	
+          <position x="-81916.24609375" y="0" z="158944.6796875" />	
+		</offset>
+	</replace>	
+	<replace sel="/macros/macro[@name='Cluster_401_Sector001_macro']/connections/connection[@name='Zone003_Cluster_401_Sector001_connection']/offset"><!--Family Nhuut-->
+		<offset>	
+          <position x="55408.1328125" y="0" z="-126087.234375" />		  
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_401_Sector001_macro']/connections/connection[@name='Zone005_Cluster_401_Sector001_connection']/offset"><!--Tharka's Cascade XV-->
+		<offset>	
+          <position x="138515.4140625" y="0" z="57018.04296875" />		
+		</offset>
+	</replace>
+	
+	<!-- Sector 402 - Family Kritt -->
+	<replace sel="/macros/macro[@name='Cluster_402_Sector001_macro']/connections/connection[@name='Zone002_Cluster_402_Sector001_connection']/offset"><!--Rhy's Defiance-->
+		<offset>	
+          <position x="-35916.24609375" y="0" z="148944.6796875" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_402_Sector001_macro']/connections/connection[@name='Zone005_Cluster_402_Sector001_connection']/offset"><!--Family Zhin-->
+		<offset>	
+          <position x="-29408.1328125" y="0" z="-126087.234375" />	
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_402_Sector001_macro']/connections"><!--Wretched Skies IV Family Valka-->
+		<connection name="Zone_Gate_Cluster_402_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="-89000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_402_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>		
+
+	<!-- Sector 403 - Wretched Skies V Family Phi -->
+	<replace sel="/macros/macro[@name='Cluster_403_Sector001_macro']/connections/connection[@name='Zone002_Cluster_403_Sector001_connection']/offset"><!--Wretched Skies X-->
+		<offset>	
+          <position x="-144870.9765625" y="0" z="-137212.39453125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_403_Sector001_macro']/connections/connection[@name='Zone003_Cluster_403_Sector001_connection']/offset"><!--Wretched Skies IV Family Valka-->
+		<offset>	
+          <position x="156998.828125" y="0" z="-73736.3359375" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_403_Sector001_macro']/connections/connection[@name='Zone005_Cluster_403_Sector001_connection']/offset"><!--Heretic's End-->
+		<offset>	
+          <position x="408.1328125" y="0" z="246087.234375" />	
+		</offset>
+	</replace>
+
+	<!-- Sector 404 - Zyarth's Dominion I -->
+	<replace sel="/macros/macro[@name='Cluster_404_Sector001_macro']/connections/connection[@name='Zone002_Cluster_404_Sector001_connection']/offset"><!--Matrix #598-->
+		<offset>	
+          <position x="-21916.24609375" y="0" z="108944.6796875" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_404_Sector001_macro']/connections/connection[@name='Zone003_Cluster_404_Sector001_connection']/offset"><!--Zyarth's Dominion X-->
+		<offset>	
+          <position x="36475.546875" y="0" z="-213399" />		  
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_404_Sector001_macro']/connections/connection[@name='Zone005_Cluster_404_Sector001_connection']/offset"><!--Family Nhuut-->
+		<offset>	
+          <position x="133604.53125" y="0" z="90601.6171875" />		
+		</offset>
+	</replace>
+
+	<!-- Sector 405 - Zyarth's Dominion IV -->
+	<replace sel="/macros/macro[@name='Cluster_405_Sector001_macro']/connections/connection[@name='Zone003_Cluster_405_Sector001_connection']/offset"><!--Zyarth's Dominion X-->
+		<offset>	
+          <position x="-123261.015625" y="0" z="-78018.04296875" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_405_Sector001_macro']/connections/connection[@name='Zone005_Cluster_405_Sector001_connection']/offset"><!--Open Market-->
+		<offset>	
+          <position x="153408.1328125" y="0" z="-10087.234375" />	
+		</offset>
+	</replace>
+
+	<!-- Sector 406 - Zyarth's Dominion X -->
+	<replace sel="/macros/macro[@name='Cluster_406_Sector001_macro']/connections/connection[@name='Zone002_Cluster_406_Sector001_connection']/offset"><!--Zyarth's Dominion I-->
+		<offset>	
+          <position x="276.546875" y="0" z="126570.9765625" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_406_Sector001_macro']/connections/connection[@name='Zone003_Cluster_406_Sector001_connection']/offset"><!--Eleventh Hour-->
+		<offset>
+          <position x="45408.1328125" y="0" z="-146087.234375" />			
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_406_Sector001_macro']/connections/connection[@name='Zone005_Cluster_406_Sector001_connection']/offset"><!--Zyarth's Dominion IV-->
+		<offset>	
+          <position x="113217.0078125" y="0" z="-10440.6953125" />	
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_406_Sector001_macro']/connections">
+		<connection name="Zone_Gate1_Cluster_406_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="-89000"/>
+			</offset>
+			<macro ref="Zone_Gate1_Cluster_406_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>	
+	<add sel="//macro[@name='Cluster_406_Sector001_macro']/connections">
+		<connection name="Zone_Gate2_Cluster_406_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-35000" y="0" z="-140000"/>			
+			</offset>
+			<macro ref="Zone_Gate2_Cluster_406_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>	
+
+	<!-- Sector 407 - Family Tkr -->
+	<replace sel="/macros/macro[@name='Cluster_407_Sector001_macro']/connections/connection[@name='Zone002_Cluster_407_Sector001_connection']/offset"><!--Fires of Defeat-->
+		<offset>	
+          <position x="-155446.8671875" y="0" z="-86447.296875" />			  
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_407_Sector001_macro']/connections/connection[@name='Zone003_Cluster_407_Sector001_connection']/offset"><!--Tharka's Ravine XXIV-->
+		<offset>	
+          <position x="75408.1328125" y="0" z="-126087.234375" />			
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_407_Sector001_macro']/connections/connection[@name='Zone004_Cluster_407_Sector001_connection']/offset"><!--Matrix #451-->
+		<offset>	
+          <position x="-21916.24609375" y="0" z="158944.6796875" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_407_Sector001_macro']/connections/connection[@name='Zone005_Cluster_407_Sector001_connection']/offset"><!--Thuruk's Demise II-->
+		<offset>	
+          <position x="152585.15625" y="0" z="75820.65625" />	
+		</offset>
+	</replace>
+
+	<!-- Sector 408 - Thuruk's Demise II/III -->
+	<replace sel="/macros/macro[@name='Cluster_408_Sector001_macro']/connections/connection[@name='Zone002_Cluster_408_Sector001_connection']/offset"><!--Ghinn's Escape-->
+		<offset>	
+          <position x="122408.1328125" y="0" z="-138087.234375" />		  
+		</offset>
+	</replace>	
+	<add sel="//macro[@name='Cluster_408_Sector002_macro']/connections">
+		<connection name="Zone_Gate1_Cluster_408_Sector002_connection" ref="zones">
+			<offset>
+				<position x="5000" y="0" z="140000"/>
+			</offset>
+			<macro ref="Zone_Gate1_Cluster_408_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>	
+	<add sel="//macro[@name='Cluster_408_Sector002_macro']/connections">
+		<connection name="Zone_Gate2_Cluster_408_Sector002_connection" ref="zones">
+			<offset>
+				<position x="-35000" y="0" z="-89000"/>			
+			</offset>
+			<macro ref="Zone_Gate2_Cluster_408_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>	
+	
+	<!-- Sector 409 - Tharka's Ravine XXIV -->
+	<replace sel="/macros/macro[@name='Cluster_409_Sector001_macro']/connections/connection[@name='Zone001_Cluster_409_Sector001_connection']/offset"><!--Fires of Defeat-->
+		<offset>	
+          <position x="-134153.03125" y="0" z="116118.703125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_409_Sector001_macro']/connections/connection[@name='Zone004_Cluster_409_Sector001_connection']/offset"><!--Tharka's Ravine XVI-->
+		<offset>	
+          <position x="95627.051.34375" y="0" z="-181620.828125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_409_Sector001_macro']/connections/connection[@name='Zone005_Cluster_409_Sector001_connection']/offset"><!--Family Tkr-->
+		<offset>	
+          <position x="98313.890625" y="0" z="136124.78125" />		  
+		</offset>
+	</replace>
+
+	<!-- Sector 410 - Tharka's Ravine XVI -->
+	<replace sel="/macros/macro[@name='Cluster_410_Sector001_macro']/connections/connection[@name='Zone002_Cluster_410_Sector001_connection']/offset"><!--Heart of Acrimoney II-->
+		<offset>	
+          <position x="121916.24609375" y="0" z="-35944.6796875" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_410_Sector001_macro']/connections/connection[@name='Zone003_Cluster_410_Sector001_connection']/offset"><!--Tharka's Ravine XXIV-->
+		<offset>	
+          <position x="64123.983267" y="0" z="192957.7265625" />	  
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_410_Sector001_macro']/connections/connection[@name='Zone005_Cluster_410_Sector001_connection']/offset"><!--Tharka's Ravine VIII-->
+		<offset>	
+          <position x="-140323.951171875" y="0" z="-89126.0107421875" />		  
+		</offset>
+	</replace>
+
+	<!-- Sector 411 - Heart of Acrimoney II -->
+	<replace sel="/macros/macro[@name='Cluster_411_Sector001_macro']/connections/connection[@name='Zone002_Cluster_411_Sector001_connection']/offset"><!--Heart of Acrimoney I-->
+		<offset>	
+          <position x="121310.1796875" y="0" z="-2087.3527832031" />		  
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_411_Sector001_macro']/connections/connection[@name='Zone005_Cluster_411_Sector001_connection']/offset"><!--Tharka's Ravine XVI-->
+		<offset>	
+          <position x="-145437.75" y="0" z="8831.2363891602" />			  
+		</offset>
+	</replace>
+
+	<!-- Sector 412 - Tharka's Ravine VIII -->
+	<replace sel="/macros/macro[@name='Cluster_412_Sector001_macro']/connections/connection[@name='Zone001_Cluster_412_Sector001_connection']/offset"><!--Tharka's Ravine XVI-->
+		<offset>	
+          <position x="92201.28125" y="0" z="-35614.76953125" />			  
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_412_Sector001_macro']/connections/connection[@name='Zone004_Cluster_412_Sector001_connection']/offset"><!--Tharka's Ravine IV-->
+		<offset>	
+          <position x="-114153.03125" y="0" z="116118.703125" />
+		</offset>
+	</replace>
+
+	<!-- Sector 413 - Tharka's Ravine IV -->
+	<replace sel="/macros/macro[@name='Cluster_413_Sector001_macro']/connections/connection[@name='Zone001_Cluster_413_Sector001_connection']/offset"><!--Tharka's Ravine VIII-->
+		<offset>	
+          <position x="124250.3828125" y="0" z="-60352.37890625" />	
+		</offset>
+	</replace>
+
+	<!-- Sector 414 - Rhy's Defiance -->
+	<replace sel="/macros/macro[@name='Cluster_414_Sector001_macro']/connections/connection[@name='Zone003_Cluster_414_Sector001_connection']/offset"><!--Matrix #598-->
+		<offset>	
+          <position x="-127875.8046875" y="0" z="-121692.59375" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_414_Sector001_macro']/connections/connection[@name='Zone005_Cluster_414_Sector001_connection']/offset"><!--Family Zhin-->
+		<offset>	
+          <position x="107875.8046875" y="0" z="91692.59375" />
+		</offset>
+	</replace>
+
+	<!-- Sector 415 - Matrix #598 -->
+	<replace sel="/macros/macro[@name='Cluster_415_Sector001_macro']/connections/connection[@name='Zone002_Cluster_415_Sector001_connection']/offset"><!--Rhy's Defiance-->
+		<offset>	
+          <position x="103927.78125" y="0" z="93512.84375" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_415_Sector001_macro']/connections/connection[@name='Zone004_Cluster_415_Sector001_connection']/offset"><!--Zyarth's Dominion I-->
+		<offset>	
+          <position x="81197.546875" y="0" z="-182829.4609375" />	
+		</offset>
+	</replace>
+
+	<!-- Sector 416 - Guiding Star V/VII-->
+	<replace sel="/macros/macro[@name='Cluster_416_Sector001_macro']/connections/connection[@name='Zone003_Cluster_416_Sector001_connection']/offset"><!--Two Grand-->
+		<offset>	
+          <position x="-28109.7890625" y="0" z="70969.53125" />
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_416_Sector001_macro']/connections"><!--Nyana's Hideout-->
+		<connection name="Zone_Gate_Cluster_416_Sector001_connection" ref="zones">
+			<offset>
+				<position x="0" y="0" z="0"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_416_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>		
+	<replace sel="/macros/macro[@name='Cluster_416_Sector002_macro']/connections/connection[@name='Zone005_Cluster_416_Sector001_connection']/offset"><!--Eleventh Hour-->
+		<offset>	
+          <position x="5408.1328125" y="0" z="-126087.234375" />	
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_416_Sector002_macro']/connections"><!--Elena's Fortune-->
+		<connection name="Zone_Gate_Cluster_416_Sector002_connection" ref="zones">
+			<offset>
+				<position x="0" y="0" z="0"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_416_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>		
+
+	<!-- Sector 417 - Eleventh Hour -->
+	<replace sel="/macros/macro[@name='Cluster_417_Sector001_macro']/connections/connection[@name='Zone001_Cluster_417_Sector001_connection']/offset"><!--Zyarth's Dominion X-->
+		<offset>	
+          <position x="-114153.03125" y="0" z="46118.703125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_417_Sector001_macro']/connections/connection[@name='Zone005_Cluster_417_Sector001_connection']/offset"><!--Guiding Star VII-->
+		<offset>	
+          <position x="55408.1328125" y="0" z="-10087.234375" />	
+		</offset>
+	</replace>
+
+	<!-- Sector 418 - Family Nhuut -->
+	<replace sel="/macros/macro[@name='Cluster_418_Sector001_macro']/connections/connection[@name='Zone001_Cluster_418_Sector001_connection']/offset"><!--Family Zhin-->
+		<offset>	
+          <position x="7690.43359375" y="0" z="116950.15625" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_418_Sector001_macro']/connections/connection[@name='Zone002_Cluster_418_Sector001_connection']/offset"><!--Zyarth's Dominion I-->
+		<offset>	
+          <position x="-111690.43359375" y="0" z="-92950.15625" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_418_Sector001_macro']/connections/connection[@name='Zone004_Cluster_418_Sector001_connection']/offset"><!--Open Market-->
+		<offset>	
+          <position x="126073.234375" y="0" z="-136468.7734375" />	
+		</offset>
+	</replace>
+
+	<!-- Sector 419 - Open Market -->
+	<replace sel="/macros/macro[@name='Cluster_419_Sector001_macro']/connections/connection[@name='Zone001_Cluster_419_Sector001_connection']/offset"><!--Family Nhuut-->
+		<offset>	
+          <position x="-21916.24609375" y="0" z="138944.6796875" />			  
+		</offset>
+	</replace>	
+	<replace sel="/macros/macro[@name='Cluster_419_Sector001_macro']/connections/connection[@name='Zone002_Cluster_419_Sector001_connection']/offset"><!--Zyarth's Dominion IV-->
+		<offset>	
+          <position x="-132792.328125" y="0" z="34289.421875" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_419_Sector001_macro']/connections/connection[@name='Zone004_Cluster_419_Sector001_connection']/offset"><!--Two Grand-->
+		<offset>	
+          <position x="83819.5" y="0" z="-99261.69140625" />
+		</offset>
+	</replace>
+
+	<!-- Sector 420 - Two Grand -->
+	<replace sel="/macros/macro[@name='Cluster_420_Sector001_macro']/connections/connection[@name='Zone001_Cluster_420_Sector001_connection']/offset"><!--Open Market-->
+		<offset>	
+          <position x="-114153.03125" y="0" z="116118.703125" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_420_Sector001_macro']/connections/connection[@name='Zone002_Cluster_420_Sector001_connection']/offset"><!--Guiding Star V-->
+		<offset>	
+          <position x="-86050.0859375" y="0" z="-129546.203125" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_420_Sector001_macro']/connections/connection[@name='Zone004_Cluster_420_Sector001_connection']/offset"><!--Fires of Defeat-->
+		<offset>	
+          <position x="214001.28125" y="0" z="-35614.76953125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_420_Sector001_macro']/connections/connection[@name='Zone005_Cluster_420_Sector001_connection']/offset"><!--Profit Center Alpha-->
+		<offset>	
+          <position x="100674.6953125" y="0" z="126138.03125" />			  
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_420_Sector001_macro']/connections"><!--Wastelands-->
+		<connection name="Zone_Gate_Cluster_420_Sector001_connection" ref="zones">
+			<offset>
+				<position x="0" y="0" z="0"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_420_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>		
+
+	<!-- Sector 421 - Fires of Defeat -->
+	<replace sel="/macros/macro[@name='Cluster_421_Sector001_macro']/connections/connection[@name='Zone001_Cluster_421_Sector001_connection']/offset"><!--Two Grand-->
+		<offset>	
+          <position x="-118450.9609375" y="0" z="-31718.89453125" />		  
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_421_Sector001_macro']/connections/connection[@name='Zone002_Cluster_421_Sector001_connection']/offset"><!--Matrix #9-->
+		<offset>	
+          <position x="-25450.9609375" y="0" z="168718.89453125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_421_Sector001_macro']/connections/connection[@name='Zone004_Cluster_421_Sector001_connection']/offset"><!--Tharka's Ravine XXIV-->
+		<offset>	
+          <position x="100631.625" y="0" z="-67916.669921875" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_421_Sector001_macro']/connections/connection[@name='Zone005_Cluster_421_Sector001_connection']/offset"><!--Family Tkr-->
+		<offset>	
+          <position x="96304.626953125" y="0" z="56383.78125" />	
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_421_Sector001_macro']/connections"><!--Wastelands-->
+		<connection name="Zone_Gate_Cluster_421_Sector001_connection" ref="zones">
+			<offset>
+				<position x="0" y="0" z="0"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_421_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>		
+
+	<!-- Sector 422 - Wretched Skies X -->
+	<replace sel="/macros/macro[@name='Cluster_422_Sector001_macro']/connections/connection[@name='Zone001_Cluster_422_Sector001_connection']/offset"><!--Litany of Fury XII-->
+		<offset>	
+          <position x="-131350.703125" y="0" z="16662.86328125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_422_Sector001_macro']/connections/connection[@name='Zone005_Cluster_422_Sector001_connection']/offset"><!--Wretched Skies V Family Phi-->
+		<offset>	
+          <position x="128029.84375" y="0" z="93832.9765625" />	
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_422_Sector001_macro']/connections"><!--Wretched Skies II-->
+		<connection name="Zone_Gate_Cluster_422_Sector001_connection" ref="zones">
+			<offset>
+				<position x="0" y="0" z="0"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_422_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>		
+
+	<!-- Sector 423 - Litany of Fury -->
+	<replace sel="/macros/macro[@name='Cluster_423_Sector001_macro']/connections/connection[@name='Zone001_Cluster_423_Sector001_connection']/offset"><!--Danna's Chance-->
+		<offset>	
+          <position x="-114153.03125" y="0" z="116118.703125" />	
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_423_Sector001_macro']/connections/connection[@name='Zone004_Cluster_423_Sector001_connection']/offset"><!--LooMankStrat's Legacy-->
+		<offset>	
+          <position x="174722.9375" y="0" z="-94124.75" />	
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_423_Sector002_macro']/connections"><!--Emperor's Pride IV-->
+		<connection name="Zone_Gate1_Cluster_423_Sector002_connection" ref="zones">
+			<offset>
+				<position x="-85000" y="0" z="125000"/>
+			</offset>
+			<macro ref="Zone_Gate1_Cluster_423_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>	
+	<add sel="//macro[@name='Cluster_423_Sector002_macro']/connections"><!--Wretched Skies X-->
+		<connection name="Zone_Gate2_Cluster_423_Sector002_connection" ref="zones">
+			<offset>
+				<position x="78000" y="0" z="-12500"/>
+			</offset>
+			<macro ref="Zone_Gate2_Cluster_423_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>		
+
+	<!-- Sector 424 - Emperor's Pride IV/VI-->
+	<replace sel="/macros/macro[@name='Cluster_424_Sector001_macro']/connections/connection[@name='Zone005_Cluster_424_Sector001_connection']/offset"><!--Litany of Fury XII-->
+		<offset>	
+          <position x="182408.1328125" y="0" z="-166087.234375" />	
+		</offset>
+	</replace>
+	<add sel="//macro[@name='Cluster_424_Sector001_macro']/connections"><!--Watchful Gaze-->
+		<connection name="Zone_Gate_Cluster_424_Sector001_connection" ref="zones">
+			<offset>
+				<position x="15500" y="0" z="85000"/>
+			</offset>
+			<macro ref="Zone_Gate_Cluster_424_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>		
+
+	<!-- Sector 425 - Heart of Acrimoney I -->
+	<replace sel="/macros/macro[@name='Cluster_425_Sector001_macro']/connections/connection[@name='Zone005_Cluster_425_Sector001_connection']/offset"><!--Heart of Acrimoney II-->
+		<offset>	
+          <position x="-145408.1328125" y="0" z="65087.234375" />	
+		</offset>
+	</replace>
+	
+</diff>
