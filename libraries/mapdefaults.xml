@@ -8,7 +8,7 @@
 				<area sunlight="1.0" economy="1.0" security="1.0"  factionlogic="false" />
 			</properties>
 		</dataset>
-		<dataset macro="Cluster_REM100_Sector001_macro">	<properties>	<identification name="{95000,01}" description="{95000,011}" />	</properties>	</dataset>
+		<dataset macro="Cluster_REM00_Sector001_macro">	<properties>	<identification name="{95000,01}" description="{95000,011}" />	</properties>	</dataset>
 		
 		<!--Sector REM01 - Matrix #01-->
 		<dataset macro="Cluster_REM01_macro">
@@ -35,7 +35,7 @@
 		<!--Sector REM03 - Mercury Beta-->		
 		<dataset macro="Cluster_REM03_macro">
 			<properties>
-				<identification name="{95000,04}" description="{95000,041}" system="100" image="enc_cluster101"/>
+				<identification name="{95000,04}" description="{95000,041}" system="100" image="enc_cluster106"/>
 				<sounds>	<music ref="music_dlc_terran_soundtrack_terran_core" />	</sounds>
 				<worlds>    <world part="part_mercury"/>	</worlds>
 				<area sunlight="6.8" economy="0.75" security="0.5" />
@@ -188,7 +188,7 @@
 		<!--Sector REM18 - Shore of Infinity-->
 		<dataset macro="Cluster_REM18_macro">
 			<properties>
-				<identification name="{20005,2026}" description="{95000,201}" image="enc_cluster818"/>
+				<identification name="{20005,2026}" description="{95000,201}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_dlc_boron_soundtrack_kingdom_end" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -239,7 +239,7 @@
 		<!--Sector REM23 - Unholy Descent-->
 		<dataset macro="Cluster_REM23_macro">
 			<properties>
-				<identification name="{20005,3045}" description="{95000,271}" system="8" image="enc_cluster01"/>
+				<identification name="{20005,3045}" description="{95000,271}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_soundtrack_paranid" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -345,7 +345,7 @@
 		<!--Sector REM33 - Thyn's Abyss-->
 		<dataset macro="Cluster_REM33_macro">
 			<properties>
-				<identification name="{20005,5005}" description="{95000,401}" system="400" image="enc_cluster01"/>
+				<identification name="{20005,5005}" description="{95000,401}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_dlc_split_soundtrack_ravine" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -355,7 +355,7 @@
 		<!--Sector REM34 - Thyn's Excavation-->
 		<dataset macro="Cluster_REM34_macro">
 			<properties>
-				<identification name="{20005,5034}" description="{95000,411}" system="400" image="enc_cluster01"/>
+				<identification name="{20005,5034}" description="{95000,411}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_dlc_split_soundtrack_periphery" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -458,7 +458,7 @@
 		<!--Sector REM44 - PTNI Headquarters-->
 		<dataset macro="Cluster_REM44_macro">
 			<properties>
-				<identification name="{20005,6050}" description="{95000,541}" image="enc_cluster818"/>
+				<identification name="{20005,6050}" description="{95000,541}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_soundtrack_xenon" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -509,7 +509,7 @@
 		<!--Sector REM49 - Duke's Vision I-->
 		<dataset macro="Cluster_REM49_macro">
 			<properties>
-				<identification name="{95000,59}" description="{95000,591}" system="8" image="enc_cluster01"/>
+				<identification name="{95000,59}" description="{95000,591}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_dlc_split_soundtrack_paranid" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -519,7 +519,7 @@
 		<!--Sector REM50 - Duke's Vision II-->
 		<dataset macro="Cluster_REM50_macro">
 			<properties>
-				<identification name="{95000,60}" description="{95000,601}" system="8" image="enc_cluster01"/>
+				<identification name="{95000,60}" description="{95000,601}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_soundtrack_periphery" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -549,7 +549,7 @@
 		<!--Sector REM53 - Legend's Home Alpha-->
 		<dataset macro="Cluster_REM53_macro">
 			<properties>
-				<identification name="{95000,63}" description="{95000,631}" system="8" image="enc_cluster01"/>
+				<identification name="{95000,63}" description="{95000,631}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_soundtrack_argon" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -559,7 +559,7 @@
 		<!--Sector REM54 - Legend's Home Beta-->
 		<dataset macro="Cluster_REM54_macro">
 			<properties>
-				<identification name="{95000,64}" description="{95000,641}" system="8" image="enc_cluster01"/>
+				<identification name="{95000,64}" description="{95000,641}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_soundtrack_periphery" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -619,7 +619,7 @@
 		<!--Sector REM60 - Zyarth's Stand-->
 		<dataset macro="Cluster_REM60_macro">
 			<properties>
-				<identification name="{20005,5037}" description="{95000,701}" system="404" image="enc_cluster01"/>
+				<identification name="{20005,5037}" description="{95000,701}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_dlc_split_soundtrack_patriarchy" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -629,7 +629,7 @@
 		<!--Sector REM61 - Zyarth's Fall-->
 		<dataset macro="Cluster_REM61_macro">
 			<properties>
-				<identification name="{20005,5058}" description="{95000,711}" system="404" image="enc_cluster01"/>
+				<identification name="{20005,5058}" description="{95000,711}" image="enc_cluster01"/>
 				<sounds>	<music ref="music_dlc_split_soundtrack_loyal_families" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -689,7 +689,7 @@
 		<!--Sector REM67 - Kha'ak Sector Alpha-->
 		<dataset macro="Cluster_REM67_macro">
 			<properties>
-				<identification name="{95000,77}" description="{95000,771}" system="8" image="enc_cluster01"/>
+				<identification name="{95000,77}" description="{95000,771}" image="enc_cluster01"/>
 				<sounds>	<music ref="legacy_music_pool" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -699,7 +699,7 @@
 		<!--Sector REM68 - Kha'ak Sector Beta-->
 		<dataset macro="Cluster_REM68_macro">
 			<properties>
-				<identification name="{95000,78}" description="{95000,781}" system="605" image="enc_cluster01"/>
+				<identification name="{95000,78}" description="{95000,781}" image="enc_cluster01"/>
 				<sounds>	<music ref="legacy_music_pool" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>
@@ -709,7 +709,7 @@
 		<!--Sector REM69 - Kha'ak Sector Gamma-->
 		<dataset macro="Cluster_REM69_macro">
 			<properties>
-				<identification name="{95000,79}" description="{95000,791}" system="8" image="enc_cluster818"/>
+				<identification name="{95000,79}" description="{95000,791}" image="enc_cluster818"/>
 				<sounds>	<music ref="legacy_music_pool" />	</sounds>
 				<area sunlight="1" economy="1" security="1"/>
 			</properties>

@@ -1,86 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-<!--
-	<replace sel="/macros/macro[@name='Cluster_###_Sector001_macro']/connections/connection[@name='Zone00#_Cluster_###_Sector001_connection']/offset">
+	<!-- Sector 601 - Watchful Gaze -->	
+	<replace sel="/macros/macro[@name='Cluster_601_Sector001_macro']/connections/connection[@name='Zone002_Cluster_601_Sector001_connection']/offset"><!--Heretic's End-->
 		<offset>	
-		  <position x="0" y="0" z="0" />	
+          <position x="137330" y="0" z="138575" />	
 		</offset>
 	</replace>
--->	
-	<!-- Sector 601 - Watchful Gaze -->
-<!--	
-	<replace sel="/macros/macro[@name='Cluster601_Sector001_macro']/connections/connection[@name='Zone00#_Cluster_601_Sector001_connection']/offset">
+	<replace sel="/macros/macro[@name='Cluster_601_Sector001_macro']/connections/connection[@name='Zone005_Cluster_601_Sector001_connection']/offset"><!--Barren Shores-->
 		<offset>	
-		  <position x="0" y="0" z="0" />	
-		</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='Cluster_601_Sector001_macro']/connections/connection[@name='Zone00#_Cluster_601_Sector001_connection']/offset">
-		<offset>	
-		  <position x="0" y="0" z="0" />	
-		</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='Cluster_601_Sector001_macro']/connections/connection[@name='Zone00#_Cluster_601_Sector001_connection']/offset">
-		<offset>	
-		  <position x="0" y="0" z="0" />	
-		</offset>
-	</replace>	
-	<replace sel="/macros/macro[@name='Cluster_601_Sector001_macro']/connections/connection[@name='Zone00#_Cluster_601_Sector001_connection']/offset">
-		<offset>	
-		  <position x="0" y="0" z="0" />	
-		</offset>
-	</replace>	
-	<replace sel="/macros/macro[@name='Cluster_601_Sector001_macro']/connections/connection[@name='Zone00#_Cluster_601_Sector001_connection']/offset">
-		<offset>	
-		  <position x="0" y="0" z="0" />	
+		 <position x="-129500" y="0" z="106970" />	
 		</offset>
 	</replace>		
--->	
+
+	
 	<!-- Sector 602 - Barren Shores -->
 	<replace sel="/macros/macro[@name='Cluster_602_Sector001_macro']/connections/connection[@name='Zone001_Cluster_602_Sector001_connection']/offset"><!--Null-->
         <offset>
-          <position x="85.55412" y="0" z="-145545.4" />
+          <position x="-98085" y="0" z="-95545" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_602_Sector001_macro']/connections/connection[@name='Zone003_Cluster_602_Sector001_connection']/offset"><!--Watchful Gaze-->
         <offset>
-          <position x="121474.9" y="0" z="-4501.229" />
+          <position x="121475" y="0" z="-124500" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_602_Sector001_macro']/connections/connection[@name='Zone004_Cluster_602_Sector001_connection']/offset"><!--Great Reef-->
         <offset>
-          <position x="-133889.7" y="0" z="-88467.94" />
+          <position x="13890" y="0" z="188465" />
         </offset>
 	</replace>	
+
 	
 	<!-- Sector 603 - Great Reef -->
 	<replace sel="/macros/macro[@name='Cluster_603_Sector001_macro']/connections/connection[@name='Zone002_Cluster_603_Sector001_connection']/offset"><!--Sanctuary of Darkness-->
         <offset>
-          <position x="22972.12" y="0" z="119150.4" />
+          <position x="52970" y="0" z="129150" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_603_Sector001_macro']/connections/connection[@name='Zone004_Cluster_603_Sector001_connection']/offset"><!--Barren Shores-->
         <offset>
-          <position x="142074" y="0" z="71801.65" />
+          <position x="42075" y="0" z="-131800" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_603_Sector001_macro']/connections/connection[@name='Zone005_Cluster_603_Sector001_connection']/offset"><!--Ocean of Fantasy-->
         <offset>
-          <position x="-57990.49" y="0" z="-130164.1" />
+          <position x="-127990" y="0" z="-70165" />
         </offset>
 	</replace>
+
 	
 	<!-- Sector 604 - Ocean of Fantasy -->
 	<replace sel="/macros/macro[@name='Cluster_604_Sector001_macro']/connections/connection[@name='Zone001_Cluster_604_Sector001_connection']/offset"><!--Null-->
         <offset>
-          <position x="-30677.88" y="0" z="-122754.3" />
+          <position x="-70675" y="0" z="-122755" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_604_Sector001_macro']/connections/connection[@name='Zone004_Cluster_604_Sector001_connection']/offset"><!--Great Reef-->
         <offset>
-          <position x="-22312.77" y="0" z="118045.5" />
+          <position x="72310" y="0" z="118045" />
         </offset>
 	</replace>	
 
+	
 	<!-- Sector 605 - Sanctuary of Darkness -->
 
 	
@@ -90,48 +71,51 @@
 	<!-- Sector 607 - Rolk's Demise -->
 	<replace sel="/macros/macro[@name='Cluster_607_Sector001_macro']/connections/connection[@name='Zone002_Cluster_607_Sector001_connection']/offset"><!--Kingdom End-->
         <offset>
-          <position x="43503.43" y="0" z="-158619.1" />
+          <position x="43505" y="0" z="-158620" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_607_Sector001_macro']/connections/connection[@name='Zone004_Cluster_607_Sector001_connection']/offset"><!--Menelaus' Oasis-->
         <offset>
-          <position x="-76997.9" y="0" z="117440.4" />
+          <position x="-76995" y="0" z="117440" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_607_Sector001_macro']/connections/connection[@name='Zone005_Cluster_607_Sector001_connection']/offset"><!--Atreus' Clouds-->
         <offset>
-          <position x="191077.1" y="0" z="29340.617" />
+          <position x="191075" y="0" z="29340" />
         </offset>
 	</replace>	
+
 	
 	<!-- Sector 608 - Atreus' Clouds -->
 	<replace sel="/macros/macro[@name='Cluster_608_Sector001_macro']/connections/connection[@name='Zone002_Cluster_608_Sector001_connection']/offset"><!--Rolk's Demise-->
         <offset>
-          <position x="-128151.2" y="0" z="-109468.4" />		  
+          <position x="-128150" y="0" z="-109470" />		  
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_608_Sector001_macro']/connections/connection[@name='Zone003_Cluster_608_Sector001_connection']/offset"><!--Null-->
         <offset>
-          <position x="185554.4" y="0" z="47903.8" />
+          <position x="185555" y="0" z="47905" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_608_Sector001_macro']/connections/connection[@name='Zone004_Cluster_608_Sector001_connection']/offset"><!--Menelaus' Oasis-->
         <offset>
-          <position x="-115973.5" y="0" z="117824.6" />
+          <position x="-115975" y="0" z="117825" />
         </offset>
 	</replace>	
 
+	
 	<!-- Sector 609 - Menelaus' Oasis -->
 	<replace sel="/macros/macro[@name='Cluster_609_Sector001_macro']/connections/connection[@name='Zone002_Cluster_609_Sector001_connection']/offset"><!--Rolk's Demise-->
         <offset>
-          <position x="-67369.28" y="0" z="-188723.7" />
+          <position x="-67365" y="0" z="-188725" />
         </offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_609_Sector001_macro']/connections/connection[@name='Zone004_Cluster_609_Sector001_connection']/offset"><!--Atreus' Clouds-->
         <offset>
-          <position x="158696.5" y="0" z="-62249.09" />
+          <position x="158695" y="0" z="-62250" />
         </offset>
 	</replace>	
+
 	
 <!--New Gates-->
 	<add sel="//macro[@name='Cluster_601_Sector001_macro']/connections"><!--Watchful Gaze to Emperor's Pride IV-->
